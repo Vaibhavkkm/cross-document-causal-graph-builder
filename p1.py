@@ -1,8 +1,6 @@
 # Causal Graph Builder for Historical Texts
-# Updated prototype: Added rule-based extraction for common causal phrases ('led to', 'caused', 'because of') to capture missed links from the model.
-# Combines model summaries with rule-based pairs for more complete, accurate causality (unidirectional where possible).
-# Improved matching to include all substring matches per phrase.
 
+# Importing imp libraries
 import logging
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -10,6 +8,7 @@ from transformers import pipeline
 import nltk
 from nltk.tokenize import sent_tokenize
 import re  # For parsing model output
+
 
 nltk.download('punkt', quiet=True)  # For sentence tokenization
 nltk.download('punkt_tab', quiet=True)  # Additional resource for tokenizer in newer NLTK versions
@@ -201,8 +200,3 @@ if __name__ == "__main__":
     else:
         print("No graph generated due to lack of events.")
     logging.info("Execution complete.")
-
-# Notes for Expansion:
-# - Combined model and rule-based for accuracy; rules handle common phrases to catch missed links.
-# - Customize rules for more patterns (e.g., 'resulted in', 'due to').
-# - For production, annotate data and fine-tune a model like BERT for relation extraction.
