@@ -17,15 +17,15 @@ nltk.download('punkt_tab', quiet=True)  # Additional resource for tokenizer in n
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Step 1: Define sample historical texts (placeholders for the dataset)
-# These are short excerpts from WWI-inspired narratives. Replace with actual dataset later.
+# These are short excerpts from WWI-inspired narratives. I will replace it with the actual dataset later.
 sample_texts = [
     "The assassination of Archduke Franz Ferdinand led to the outbreak of World War I. Austria-Hungary declared war on Serbia because of the assassination.",
     "The sinking of the Lusitania caused the United States to enter the war. Germany’s unrestricted submarine warfare was the main reason."
 ]
 
 # Step 2: Load Hugging Face models with CPU fallback
-# Use device='cpu' to avoid MPS/CUDA issues; change to 0 for GPU if available and stable.
-device = 'cpu'  # Or 'mps' if on Mac and stable, or 0 for CUDA
+# I have used device='cpu' to avoid MPS/CUDA issues
+device = 'cpu'
 logging.info(f"Loading models on device: {device}")
 
 try:
