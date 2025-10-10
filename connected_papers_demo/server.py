@@ -203,11 +203,10 @@ if GRAPH_DATA is None:
         ]
     }
 
-
 @app.route('/')
 def index():
     """Serve the main HTML page"""
-    return send_file('index.html')
+    return send_file('index_enhanced.html')
 
 @app.route('/api/graph')
 def get_graph():

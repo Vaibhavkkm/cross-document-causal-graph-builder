@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Events Network - Connected Papers Style</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            overflow: hidden;
+            background: #f8f9fa;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+        #graph-container {
+            flex: 1;
+            position: relative;
+            background: #f8f9fa;
+        }
+
+        #graph {
+            width: 100%;
+            height: 100%;
+        }
+
+        #sidebar {
+            width: 420px;
+            background: white;
+            border-left: 1px solid #e0e0e0;
+            overflow-y: auto;
+            box-shadow: -5px 0 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        #sidebar.collapsed {
+            transform: translateX(420px);
+        }
+
+        .sidebar-content {
+            padding: 30px;
+        }
+
+        .sidebar-header {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .sidebar-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .sidebar-meta {
+            display: flex;
+            gap: 15px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+
+        .meta-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 12px;
+            background: #f8f9fa;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .meta-badge.year {
+            background: #5b9aa9;
+            color: white;
+        }
+
+        .meta-badge.citations {
+            background: #7db5c4;
+            color: white;
+        }
+
+        .sidebar-section {
+            margin-bottom: 25px;
+        }
+
+        .section-label {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #999;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .section-content {
+            color: #444;
+            line-height: 1.6;
+            font-size: 14px;
+        }
+
+        /* Enhanced Node Styles */
+        .node {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .node:hover {
+            filter: brightness(1.1);
+        }
+
+        .node.selected {
+            filter: brightness(1.2);
+        }
+
+        .node-circle {
+            stroke: white;
+            stroke-width: 2px;
+            fill: #5b9aa9;
+            opacity: 0.85;
+        }
+
+        .node:hover .node-circle {
+            opacity: 1;
+        }
+
+        /* Straight Links */
+        .link {
+            fill: none;
+            stroke: #999;
+            stroke-width: 2px;
+            stroke-opacity: 0.6;
+        }
+
+        .link.causal {
+            stroke: #e67e22;
+            stroke-width: 3px;
+            stroke-opacity: 0.8;
+        }
+
+        .link:hover {
+            stroke: #333;
+            stroke-opacity: 1;
+        }
+
+        .node-label {
+            font-size: 12px;
+            pointer-events: none;
+            text-anchor: middle;
+            fill: #2c3e50;
+            font-weight: 600;
+            opacity: 1;
+        }
+
+        .node-label.title {
+            font-size: 9px;
+            fill: #666;
+            font-weight: 400;
+        }
+
+        /* Control Panel */
+        #controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            backdrop-filter: blur(10px);
+        }
+
+        .control-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .control-button {
+            padding: 8px 16px;
+            margin: 5px;
+            background: #5b9aa9;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .control-button:hover {
+            background: #4a8694;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(91, 154, 169, 0.3);
+        }
+
+        /* Legend */
+        #legend {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            padding: 10px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .legend-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #666;
+            margin-right: 10px;
+        }
+
+        .timeline-bar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            position: relative;
+            height: 30px;
+        }
+
+        .timeline-bar::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            height: 2px;
+            background: linear-gradient(90deg, #5b9aa9 0%, #8ab4bf 100%);
+        }
+
+        .year-marker {
+            font-size: 11px;
+            color: #666;
+            font-weight: 500;
+            background: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            z-index: 1;
+        }
+
+        /* Loading Spinner */
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+            color: white;
+            font-weight: 600;
+        }
+
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid white;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Tooltip */
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            max-width: 250px;
+            z-index: 1000;
+        }
+
+        .tooltip.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="graph-container">
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                Loading Historical Events Network...
+            </div>
+
+            <div id="controls">
+                <div class="control-title">🎛️ Controls</div>
+                <button class="control-button" onclick="resetZoom()">Reset View</button>
+                <button class="control-button" onclick="toggleSidebar()">Toggle Info</button>
+                <button class="control-button" onclick="recenterGraph()">Recenter</button>
+            </div>
+
+            <div id="legend">
+                <div class="legend-title">Timeline</div>
+                <div class="timeline-bar">
+                    <span class="year-marker">1914</span>
+                    <span class="year-marker">1915</span>
+                    <span class="year-marker">1916</span>
+                    <span class="year-marker">1917</span>
+                    <span class="year-marker">1918</span>
+                    <span class="year-marker">1919</span>
+                </div>
+            </div>
+
+            <svg id="graph"></svg>
+            <div class="tooltip" id="tooltip"></div>
+        </div>
+
+        <div id="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-header">
+                    <div class="sidebar-title">Click on any event bubble to see details</div>
+                    <div class="sidebar-meta">
+                        <span class="meta-badge">📚 Historical Events</span>
+                        <span class="meta-badge">🔗 Causal Relations</span>
+                    </div>
+                </div>
+
+                <div id="paper-details">
+                    <div class="sidebar-section">
+                        <div class="section-label">About This Network</div>
+                        <div class="section-content">
+                            This visualization shows historical events from World War I extracted from diaries, letters,
+                            and battle narratives.
+                            Click on any bubble to explore the details of that event. Lines connecting bubbles represent
+                            causal or temporal relationships between events.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        // Configuration
+        const width = window.innerWidth * 0.7;
+        const height = window.innerHeight;
+
+        // Create SVG
+        const svg = d3.select("#graph")
+            .attr("width", width)
+            .attr("height", height);
+
+        // Create groups for links and nodes
+        const linkGroup = svg.append("g").attr("class", "links");
+        const nodeGroup = svg.append("g").attr("class", "nodes");
+
+        // Zoom behavior
+        const zoom = d3.zoom()
+            .scaleExtent([0.1, 4])
+            .on("zoom", (event) => {
+                nodeGroup.attr("transform", event.transform);
+                linkGroup.attr("transform", event.transform);
+            });
+
+        svg.call(zoom);
+
+        // Color scale based on year - simple teal shades
+        function getNodeColor(year) {
+            if (!year || year < 1914) {
+                return "#7db5c4";
+            } else if (year <= 1915) {
+                return "#5b9aa9";
+            } else if (year <= 1917) {
+                return "#4a8694";
+            } else {
+                return "#3a6d7a";
+            }
+        }
+
+        // Remove all the gradient definitions - not needed anymore
+
+        // Load and visualize data
+        Promise.all([
+            fetch('/api/graph').then(r => r.json())
+        ]).then(([graphData]) => {
+            // Hide loading
+            document.getElementById('loading').style.display = 'none';
+
+            // Create force simulation with TIGHT clustering like Connected Papers
+            const simulation = d3.forceSimulation(graphData.nodes)
+                .force("link", d3.forceLink(graphData.links)
+                    .id(d => d.id)
+                    .distance(50)  // Much shorter - nodes closer together
+                    .strength(2))  // Stronger pull - keep connected nodes VERY close
+                .force("charge", d3.forceManyBody().strength(-150))  // Less repulsion
+                .force("center", d3.forceCenter(width / 2, height / 2))
+                .force("collision", d3.forceCollide().radius(d => getNodeSize(d.citations) + 2));  // Tighter collision
+
+            console.log("Loaded nodes:", graphData.nodes.length);
+            console.log("Loaded links:", graphData.links.length);
+
+            // Create straight links (not curved!)
+            const links = linkGroup.selectAll("line")
+                .data(graphData.links)
+                .join("line")
+                .attr("class", d => `link ${d.type || ''}`)
+                .attr("stroke-width", d => d.weight || 1.5);
+
+            // Create node groups
+            const nodes = nodeGroup.selectAll("g")
+                .data(graphData.nodes)
+                .join("g")
+                .attr("class", "node")
+                .call(drag(simulation));
+
+            // Add circles to nodes
+            nodes.append("circle")
+                .attr("class", "node-circle")
+                .attr("r", d => getNodeSize(d.citations))
+                .attr("fill", d => getNodeColor(d.year))
+                .on("click", (event, d) => showDetails(d))
+                .on("mouseover", (event, d) => showTooltip(event, d))
+                .on("mouseout", hideTooltip);
+
+            // Add labels - SHOW YEAR CLEARLY
+            nodes.append("text")
+                .attr("class", "node-label")
+                .attr("dy", 4)
+                .text(d => d.year || '?');
+
+            // Add author/title below if available
+            nodes.append("text")
+                .attr("class", "node-label title")
+                .attr("dy", d => getNodeSize(d.citations) + 12)
+                .text(d => {
+                    const title = d.title || '';
+                    return title.length > 20 ? title.substring(0, 20) + '...' : title;
+                });
+
+            // Update positions on simulation tick
+            simulation.on("tick", () => {
+                // Straight lines
+                links
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                nodes.attr("transform", d => `translate(${d.x},${d.y})`);
+            });
+
+            // Store simulation globally for controls
+            window.simulation = simulation;
+        });
+
+        // Helper functions
+        function getNodeSize(citations) {
+            // Make nodes bigger so year text fits
+            return Math.max(25, Math.sqrt(citations || 50) * 2 + 15);
+        }
+
+        function truncateText(text, maxLength) {
+            return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+        }
+
+        function showDetails(data) {
+            // Remove selected class from all nodes
+            d3.selectAll(".node").classed("selected", false);
+            // Add selected class to clicked node
+            d3.selectAll(".node").filter(d => d.id === data.id).classed("selected", true);
+
+            // Fetch full details
+            fetch(`/api/paper/${data.id}`)
+                .then(response => response.json())
+                .then(paper => {
+                    const detailsHTML = `
+                        <div class="sidebar-header">
+                            <div class="sidebar-title">${paper.title || 'Event Details'}</div>
+                            <div class="sidebar-meta">
+                                ${paper.year ? `<span class="meta-badge year">📅 ${paper.year}</span>` : ''}
+                                ${paper.citations ? `<span class="meta-badge citations">📊 ${paper.citations} refs</span>` : ''}
+                                ${paper.author ? `<span class="meta-badge">✍️ ${paper.author}</span>` : ''}
+                            </div>
+                        </div>
+
+                        ${paper.document ? `
+                        <div class="sidebar-section">
+                            <div class="section-label">Document</div>
+                            <div class="section-content">${paper.document}</div>
+                        </div>` : ''}
+
+                        ${paper.date ? `
+                        <div class="sidebar-section">
+                            <div class="section-label">Date</div>
+                            <div class="section-content">${paper.date}</div>
+                        </div>` : ''}
+
+                        ${paper.location ? `
+                        <div class="sidebar-section">
+                            <div class="section-label">Location</div>
+                            <div class="section-content">${paper.location}</div>
+                        </div>` : ''}
+
+                        <div class="sidebar-section">
+                            <div class="section-label">Event Description</div>
+                            <div class="section-content">${paper.abstract || paper.full_text || 'No description available.'}</div>
+                        </div>
+                    `;
+                    document.getElementById('paper-details').innerHTML = detailsHTML;
+                });
+        }
+
+        function showTooltip(event, d) {
+            const tooltip = document.getElementById('tooltip');
+            tooltip.innerHTML = `<strong>${truncateText(d.title, 50)}</strong><br>${d.year || 'Date unknown'}`;
+            tooltip.style.left = (event.pageX + 10) + 'px';
+            tooltip.style.top = (event.pageY + 10) + 'px';
+            tooltip.classList.add('show');
+        }
+
+        function hideTooltip() {
+            document.getElementById('tooltip').classList.remove('show');
+        }
+
+        function drag(simulation) {
+            function dragstarted(event) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                event.subject.fx = event.subject.x;
+                event.subject.fy = event.subject.y;
+            }
+
+            function dragged(event) {
+                event.subject.fx = event.x;
+                event.subject.fy = event.y;
+            }
+
+            function dragended(event) {
+                if (!event.active) simulation.alphaTarget(0);
+                event.subject.fx = null;
+                event.subject.fy = null;
+            }
+
+            return d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended);
+        }
+
+        // Control functions
+        function resetZoom() {
+            svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity);
+        }
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('collapsed');
+        }
+
+        function recenterGraph() {
+            if (window.simulation) {
+                window.simulation.alpha(1).restart();
+            }
+        }
+
+        // Responsive resize
+        window.addEventListener('resize', () => {
+            location.reload();
+        });
+    </script>
+</body>
+
+</html>
