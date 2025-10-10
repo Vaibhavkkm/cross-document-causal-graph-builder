@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connected Papers Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            overflow: hidden;
+        }
+
+        #container {
+            display: flex;
+            height: 100vh;
+        }
+
+        #graph-container {
+            flex: 1;
+            position: relative;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        #graph {
+            width: 100%;
+            height: 100%;
+        }
+
+        #sidebar {
+            width: 400px;
+            background: white;
+            border-left: 1px solid #ddd;
+            overflow-y: auto;
+            padding: 20px;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .node {
+            stroke: #fff;
+            stroke-width: 2px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .node:hover {
+            stroke: #333;
+            stroke-width: 3px;
+        }
+
+        .node.selected {
+            stroke: #ff6b6b;
+            stroke-width: 4px;
+        }
+
+        .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+
+        .node-label {
+            font-size: 11px;
+            pointer-events: none;
+            text-anchor: middle;
+            fill: #333;
+            font-weight: 500;
+        }
+
+        #legend {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            font-size: 12px;
+        }
+
+        .legend-item {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid white;
+        }
+
+        #paper-details {
+            display: none;
+        }
+
+        #paper-details.active {
+            display: block;
+        }
+
+        .paper-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .paper-meta {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        .meta-item {
+            margin: 8px 0;
+            display: flex;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            color: #555;
+            min-width: 100px;
+        }
+
+        .meta-value {
+            color: #333;
+        }
+
+        .paper-abstract {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .paper-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #4a90e2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .paper-link:hover {
+            background: #357abd;
+        }
+
+        #placeholder {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+        }
+
+        #placeholder svg {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        h2 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="graph-container">
+            <svg id="graph"></svg>
+            <div id="legend">
+                <div style="font-weight: 600; margin-bottom: 10px;">Citation Count</div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #e74c3c;"></div>
+                    <span>High (1000+)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #f39c12;"></div>
+                    <span>Medium (100-1000)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #3498db;"></div>
+                    <span>Low (&lt;100)</span>
+                </div>
+                <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #ddd;">
+                    <small><strong>Tip:</strong> Click on any bubble to see details</small>
+                </div>
+            </div>
+        </div>
+
+        <div id="sidebar">
+            <h2>Paper Details</h2>
+
+            <div id="placeholder">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                <p>Click on any bubble in the graph to view paper details</p>
+            </div>
+
+            <div id="paper-details"></div>
+        </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        // Configuration
+        const width = document.getElementById('graph-container').clientWidth;
+        const height = document.getElementById('graph-container').clientHeight;
+
+        const svg = d3.select('#graph')
+            .attr('width', width)
+            .attr('height', height);
+
+        const g = svg.append('g');
+
+        // Add zoom behavior
+        const zoom = d3.zoom()
+            .scaleExtent([0.3, 3])
+            .on('zoom', (event) => {
+                g.attr('transform', event.transform);
+            });
+
+        svg.call(zoom);
+
+        // Color scale based on citations
+        function getNodeColor(citations) {
+            if (citations >= 1000) return '#e74c3c';
+            if (citations >= 100) return '#f39c12';
+            return '#3498db';
+        }
+
+        // Size scale based on citations
+        function getNodeSize(citations) {
+            return Math.sqrt(citations) * 0.5 + 10;
+        }
+
+        // Load graph data
+        fetch('/api/graph')
+            .then(response => response.json())
+            .then(data => {
+                initializeGraph(data);
+            })
+            .catch(error => {
+                console.error('Error loading graph:', error);
+                document.getElementById('sidebar').innerHTML =
+                    '<div class="error">Failed to load graph data</div>';
+            });
+
+        function initializeGraph(graphData) {
+            // Create links
+            const link = g.append('g')
+                .selectAll('line')
+                .data(graphData.links)
+                .join('line')
+                .attr('class', 'link')
+                .attr('stroke-width', d => Math.sqrt(d.weight || 1));
+
+            // Create nodes
+            const node = g.append('g')
+                .selectAll('circle')
+                .data(graphData.nodes)
+                .join('circle')
+                .attr('class', 'node')
+                .attr('r', d => getNodeSize(d.citations))
+                .attr('fill', d => getNodeColor(d.citations))
+                .on('click', (event, d) => {
+                    // Remove previous selection
+                    d3.selectAll('.node').classed('selected', false);
+                    // Add selection to clicked node
+                    d3.select(event.currentTarget).classed('selected', true);
+                    // Fetch and display paper details
+                    loadPaperDetails(d.id);
+                })
+                .call(d3.drag()
+                    .on('start', dragstarted)
+                    .on('drag', dragged)
+                    .on('end', dragended));
+
+            // Add labels
+            const labels = g.append('g')
+                .selectAll('text')
+                .data(graphData.nodes)
+                .join('text')
+                .attr('class', 'node-label')
+                .attr('dy', d => getNodeSize(d.citations) + 15)
+                .text(d => d.year || '');
+
+            // Add tooltips
+            node.append('title')
+                .text(d => d.title);
+
+            // Force simulation
+            const simulation = d3.forceSimulation(graphData.nodes)
+                .force('link', d3.forceLink(graphData.links)
+                    .id(d => d.id)
+                    .distance(100))
+                .force('charge', d3.forceManyBody().strength(-300))
+                .force('center', d3.forceCenter(width / 2, height / 2))
+                .force('collision', d3.forceCollide().radius(d => getNodeSize(d.citations) + 5));
+
+            simulation.on('tick', () => {
+                link
+                    .attr('x1', d => d.source.x)
+                    .attr('y1', d => d.source.y)
+                    .attr('x2', d => d.target.x)
+                    .attr('y2', d => d.target.y);
+
+                node
+                    .attr('cx', d => d.x)
+                    .attr('cy', d => d.y);
+
+                labels
+                    .attr('x', d => d.x)
+                    .attr('y', d => d.y);
+            });
+
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+        }
+
+        function loadPaperDetails(paperId) {
+            const detailsDiv = document.getElementById('paper-details');
+            const placeholder = document.getElementById('placeholder');
+
+            // Show loading state
+            detailsDiv.className = 'loading';
+            detailsDiv.innerHTML = 'Loading paper details...';
+            detailsDiv.style.display = 'block';
+            placeholder.style.display = 'none';
+
+            fetch(`/api/paper/${paperId}`)
+                .then(response => {
+                    if (!response.ok) throw new Error('Paper not found');
+                    return response.json();
+                })
+                .then(paper => {
+                    displayPaperDetails(paper);
+                })
+                .catch(error => {
+                    detailsDiv.innerHTML = '<div class="error">Failed to load paper details</div>';
+                    console.error(error);
+                });
+        }
+
+        function displayPaperDetails(paper) {
+            const detailsDiv = document.getElementById('paper-details');
+            detailsDiv.className = 'active';
+
+            const html = `
+                <div class="paper-title">${paper.title}</div>
+                
+                <div class="paper-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">Authors:</span>
+                        <span class="meta-value">${paper.authors}</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Year:</span>
+                        <span class="meta-value">${paper.year}</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Citations:</span>
+                        <span class="meta-value">${paper.citations.toLocaleString()}</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Journal:</span>
+                        <span class="meta-value">${paper.journal}</span>
+                    </div>
+                </div>
+                
+                <div class="paper-abstract">
+                    <strong>Abstract:</strong><br><br>
+                    ${paper.abstract}
+                </div>
+                
+                ${paper.url ? `<a href="${paper.url}" target="_blank" class="paper-link">View Paper</a>` : ''}
+            `;
+
+            detailsDiv.innerHTML = html;
+        }
+    </script>
+</body>
+
+</html>
