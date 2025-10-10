@@ -91,10 +91,112 @@ class GraphBuilder:
         
         print(f"✅ Created {len(self.nodes)} nodes and {len(self.links)} links")
         
+        # Add MORE links based on similarity to make it dense like Connected Papers
+        self._add_similarity_links()
+        
+        print(f"✅ After adding similarity links: {len(self.links)} total links")
+        
         return {
             'nodes': self.nodes,
             'links': self.links
         }
+    
+    def _add_similarity_links(self):
+        """Add links between similar events (same year, location, author, etc.)"""
+        print("🔗 Adding similarity-based connections...")
+        
+        # Group nodes by year for temporal connections
+        year_groups = defaultdict(list)
+        for node in self.nodes:
+            year_groups[node['year']].append(node['id'])
+        
+        # Connect events in same year
+        for year, node_ids in year_groups.items():
+            if len(node_ids) > 1:
+                # Connect each node to 2-3 nearby nodes in same year
+                for i, node_id in enumerate(node_ids):
+                    # Connect to next 2 nodes (circular)
+                    for j in range(1, min(3, len(node_ids))):
+                        target_idx = (i + j) % len(node_ids)
+                        if node_id != node_ids[target_idx]:
+                            self.links.append({
+                                'source': node_id,
+                                'target': node_ids[target_idx],
+                                'weight': 1,
+                                'type': 'temporal_proximity'
+                            })
+        
+        # ADD BRIDGE CONNECTIONS BETWEEN YEARS to pull clusters together
+        sorted_years = sorted(year_groups.keys())
+        for i in range(len(sorted_years) - 1):
+            year1 = sorted_years[i]
+            year2 = sorted_years[i + 1]
+            
+            # Connect 3-5 random nodes between consecutive years
+            nodes1 = year_groups[year1]
+            nodes2 = year_groups[year2]
+            
+            import random
+            num_bridges = min(5, len(nodes1), len(nodes2))
+            for _ in range(num_bridges):
+                source = random.choice(nodes1)
+                target = random.choice(nodes2)
+                self.links.append({
+                    'source': source,
+                    'target': target,
+                    'weight': 1,
+                    'type': 'year_bridge'
+                })
+        
+        # Group by author for author connections
+        author_groups = defaultdict(list)
+        for node in self.nodes:
+            if node['author'] != 'Unknown':
+                author_groups[node['author']].append(node['id'])
+        
+        # Connect events by same author
+        for author, node_ids in author_groups.items():
+            if len(node_ids) > 1:
+                for i in range(len(node_ids) - 1):
+                    self.links.append({
+                        'source': node_ids[i],
+                        'target': node_ids[i + 1],
+                        'weight': 2,
+                        'type': 'same_author'
+                    })
+        
+        # Group by location for location connections  
+        location_groups = defaultdict(list)
+        for node in self.nodes:
+            if node['location'] != 'Unknown':
+                location_groups[node['location']].append(node['id'])
+        
+        # Connect events at same location
+        for location, node_ids in location_groups.items():
+            if len(node_ids) > 1 and len(node_ids) < 20:  # Only for reasonable groups
+                for i in range(len(node_ids) - 1):
+                    self.links.append({
+                        'source': node_ids[i],
+                        'target': node_ids[i + 1],
+                        'weight': 1,
+                        'type': 'same_location'
+                    })
+        
+        # ADD CROSS-CLUSTER BRIDGES between different documents
+        doc_groups = defaultdict(list)
+        for node in self.nodes:
+            doc_groups[node['document']].append(node['id'])
+        
+        # Connect first node of each document to create a connected graph
+        all_docs = list(doc_groups.keys())
+        for i in range(len(all_docs) - 1):
+            if doc_groups[all_docs[i]] and doc_groups[all_docs[i + 1]]:
+                self.links.append({
+                    'source': doc_groups[all_docs[i]][0],
+                    'target': doc_groups[all_docs[i + 1]][0],
+                    'weight': 1,
+                    'type': 'document_bridge'
+                })
     
     def _generate_node_id(self, filename, event_idx):
         """Generate unique node ID"""
