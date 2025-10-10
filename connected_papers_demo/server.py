@@ -4,30 +4,60 @@ from pathlib import Path
 
 app = Flask(__name__)
 
-# Dummy dataset - Papers on bibliometric analysis and science mapping
-PAPERS = {
-    "p1": {
-        "id": "p1",
-        "title": "Bibliometric Methods in Management and Organization",
-        "authors": "I. Zupic, T. Čater",
-        "year": 2014,
-        "citations": 4570,
-        "journal": "Organizational Research Methods",
-        "abstract": "This paper reviews bibliometric methods and their application in management and organizational research. It provides a comprehensive overview of citation analysis, co-citation analysis, bibliographic coupling, co-word analysis, and co-authorship analysis. The paper discusses how bibliometric methods can complement traditional literature reviews and meta-analysis.",
-        "url": "https://journals.sagepub.com/doi/10.1177/1094428114562629"
-    },
-    "p2": {
-        "id": "p2",
-        "title": "Science Mapping Software Tools: Review, Analysis, and Cooperative Study",
-        "authors": "N. J. Cobo, A. López-Herrera, E. Herrera-Viedma, F. Herrera",
-        "year": 2011,
-        "citations": 2234,
-        "journal": "Journal of the American Society for Information Science and Technology",
-        "abstract": "Science mapping analyzes the intellectual structure of scientific fields. This paper presents a comparative analysis of the main science mapping software tools currently available, including CiteSpace, VOSviewer, Sci2 Tool, and others. We analyze their features, capabilities, and use cases.",
-        "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.21525"
-    },
-    "p3": {
-        "id": "p3",
+# Load real historical event data
+def load_real_data():
+    """Load graph data and node details from JSON files"""
+    base_dir = Path(__file__).parent
+    
+    # Load graph structure
+    try:
+        with open(base_dir / 'graph_data.json', 'r') as f:
+            graph_data = json.load(f)
+        print(f"✅ Loaded {len(graph_data['nodes'])} nodes and {len(graph_data['links'])} links")
+    except FileNotFoundError:
+        print("⚠️  graph_data.json not found - using dummy data")
+        graph_data = None
+    
+    # Load node details
+    try:
+        with open(base_dir / 'nodes_detail.json', 'r') as f:
+            nodes_detail = json.load(f)
+        print(f"✅ Loaded details for {len(nodes_detail)} events")
+    except FileNotFoundError:
+        print("⚠️  nodes_detail.json not found - using dummy data")
+        nodes_detail = None
+    
+    return graph_data, nodes_detail
+
+# Load data at startup
+GRAPH_DATA, PAPERS = load_real_data()
+
+# Fallback to dummy data if real data not available
+if PAPERS is None:
+    # Dummy dataset - Papers on bibliometric analysis and science mapping
+    PAPERS = {
+        "p1": {
+            "id": "p1",
+            "title": "Bibliometric Methods in Management and Organization",
+            "authors": "I. Zupic, T. Čater",
+            "year": 2014,
+            "citations": 4570,
+            "journal": "Organizational Research Methods",
+            "abstract": "This paper reviews bibliometric methods and their application in management and organizational research. It provides a comprehensive overview of citation analysis, co-citation analysis, bibliographic coupling, co-word analysis, and co-authorship analysis. The paper discusses how bibliometric methods can complement traditional literature reviews and meta-analysis.",
+            "url": "https://journals.sagepub.com/doi/10.1177/1094428114562629"
+        },
+        "p2": {
+            "id": "p2",
+            "title": "Science Mapping Software Tools: Review, Analysis, and Cooperative Study",
+            "authors": "N. J. Cobo, A. López-Herrera, E. Herrera-Viedma, F. Herrera",
+            "year": 2011,
+            "citations": 2234,
+            "journal": "Journal of the American Society for Information Science and Technology",
+            "abstract": "Science mapping analyzes the intellectual structure of scientific fields. This paper presents a comparative analysis of the main science mapping software tools currently available, including CiteSpace, VOSviewer, Sci2 Tool, and others. We analyze their features, capabilities, and use cases.",
+            "url": "https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.21525"
+        },
+        "p3": {
+            "id": "p3",
         "title": "Software Tools for Conducting Bibliometric Analysis in Science",
         "authors": "B. Moral-Muñoz, E. Herrera-Viedma, A. Santisteban-Espejo, M. Cobo",
         "year": 2020,
@@ -128,49 +158,51 @@ PAPERS = {
     }
 }
 
-# Graph structure - nodes and links
-GRAPH_DATA = {
-    "nodes": [
-        {"id": "p1", "title": "Bibliometric Methods in Management", "citations": 4570, "year": 2014},
-        {"id": "p2", "title": "Science Mapping Software Tools", "citations": 2234, "year": 2011},
-        {"id": "p3", "title": "Software Tools for Bibliometric Analysis", "citations": 1543, "year": 2020},
-        {"id": "p4", "title": "Citation Analysis and Network Visualization", "citations": 892, "year": 1973},
-        {"id": "p5", "title": "Visualizing Knowledge Domains", "citations": 3456, "year": 2003},
-        {"id": "p6", "title": "VOSviewer: Bibliometric Mapping", "citations": 8921, "year": 2010},
-        {"id": "p7", "title": "CiteSpace II", "citations": 5234, "year": 2006},
-        {"id": "p8", "title": "Citation Networks", "citations": 1876, "year": 1979},
-        {"id": "p9", "title": "Bibliographic Coupling", "citations": 2109, "year": 1963},
-        {"id": "p10", "title": "Co-word Analysis", "citations": 987, "year": 1983},
-        {"id": "p11", "title": "Leiden Manifesto", "citations": 3687, "year": 2015},
-        {"id": "p12", "title": "Mapping Scientific Frontier", "citations": 654, "year": 1998}
-    ],
-    "links": [
-        {"source": "p1", "target": "p2", "weight": 3},
-        {"source": "p1", "target": "p3", "weight": 2},
-        {"source": "p1", "target": "p11", "weight": 2},
-        {"source": "p2", "target": "p6", "weight": 4},
-        {"source": "p2", "target": "p7", "weight": 3},
-        {"source": "p2", "target": "p5", "weight": 2},
-        {"source": "p3", "target": "p6", "weight": 3},
-        {"source": "p3", "target": "p2", "weight": 2},
-        {"source": "p4", "target": "p8", "weight": 2},
-        {"source": "p4", "target": "p9", "weight": 3},
-        {"source": "p5", "target": "p7", "weight": 4},
-        {"source": "p5", "target": "p6", "weight": 3},
-        {"source": "p5", "target": "p4", "weight": 2},
-        {"source": "p6", "target": "p7", "weight": 3},
-        {"source": "p6", "target": "p11", "weight": 2},
-        {"source": "p7", "target": "p5", "weight": 3},
-        {"source": "p8", "target": "p9", "weight": 2},
-        {"source": "p8", "target": "p4", "weight": 3},
-        {"source": "p9", "target": "p4", "weight": 4},
-        {"source": "p10", "target": "p5", "weight": 2},
-        {"source": "p10", "target": "p1", "weight": 1},
-        {"source": "p11", "target": "p1", "weight": 2},
-        {"source": "p12", "target": "p5", "weight": 2},
-        {"source": "p12", "target": "p8", "weight": 1}
-    ]
-}
+# Graph structure - nodes and links (fallback if real data not loaded)
+if GRAPH_DATA is None:
+    GRAPH_DATA = {
+        "nodes": [
+            {"id": "p1", "title": "Bibliometric Methods in Management", "citations": 4570, "year": 2014},
+            {"id": "p2", "title": "Science Mapping Software Tools", "citations": 2234, "year": 2011},
+            {"id": "p3", "title": "Software Tools for Bibliometric Analysis", "citations": 1543, "year": 2020},
+            {"id": "p4", "title": "Citation Analysis and Network Visualization", "citations": 892, "year": 1973},
+            {"id": "p5", "title": "Visualizing Knowledge Domains", "citations": 3456, "year": 2003},
+            {"id": "p6", "title": "VOSviewer: Bibliometric Mapping", "citations": 8921, "year": 2010},
+            {"id": "p7", "title": "CiteSpace II", "citations": 5234, "year": 2006},
+            {"id": "p8", "title": "Citation Networks", "citations": 1876, "year": 1979},
+            {"id": "p9", "title": "Bibliographic Coupling", "citations": 2109, "year": 1963},
+            {"id": "p10", "title": "Co-word Analysis", "citations": 987, "year": 1983},
+            {"id": "p11", "title": "Leiden Manifesto", "citations": 3687, "year": 2015},
+            {"id": "p12", "title": "Mapping Scientific Frontier", "citations": 654, "year": 1998}
+        ],
+        "links": [
+            {"source": "p1", "target": "p2", "weight": 3},
+            {"source": "p1", "target": "p3", "weight": 2},
+            {"source": "p1", "target": "p11", "weight": 2},
+            {"source": "p2", "target": "p6", "weight": 4},
+            {"source": "p2", "target": "p7", "weight": 3},
+            {"source": "p2", "target": "p5", "weight": 2},
+            {"source": "p3", "target": "p6", "weight": 3},
+            {"source": "p3", "target": "p2", "weight": 2},
+            {"source": "p4", "target": "p8", "weight": 2},
+            {"source": "p4", "target": "p9", "weight": 3},
+            {"source": "p5", "target": "p7", "weight": 4},
+            {"source": "p5", "target": "p6", "weight": 3},
+            {"source": "p5", "target": "p4", "weight": 2},
+            {"source": "p6", "target": "p7", "weight": 3},
+            {"source": "p6", "target": "p11", "weight": 2},
+            {"source": "p7", "target": "p5", "weight": 3},
+            {"source": "p8", "target": "p9", "weight": 2},
+            {"source": "p8", "target": "p4", "weight": 3},
+            {"source": "p9", "target": "p4", "weight": 4},
+            {"source": "p10", "target": "p5", "weight": 2},
+            {"source": "p10", "target": "p1", "weight": 1},
+            {"source": "p11", "target": "p1", "weight": 2},
+            {"source": "p12", "target": "p5", "weight": 2},
+            {"source": "p12", "target": "p8", "weight": 1}
+        ]
+    }
+
 
 @app.route('/')
 def index():

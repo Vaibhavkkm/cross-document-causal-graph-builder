@@ -1,0 +1,2323 @@
+[
+  {
+    "filename": "survivor_030.txt",
+    "category": "other",
+    "author": null,
+    "date": null,
+    "location": null,
+    "events": [
+      {
+        "text": "During the First World War, the mass mobilisation of civilian armies coupled with fighting on an industrial scale led to unprecedented numbers of wounded",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "During",
+            "First",
+            "World",
+            "War,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "The range of weapons used meant there was a wide variety of ways that men could be wounded",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We took part in the assault on Desire Trench and in the morning before it got light, I went up to have a look round this new ground we’d taken",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Desire",
+            "Trench"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I went around with a company commander and was very pleased with what he’d done",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "And just as it was getting light, I started off back to my battalion headquarters and I hadn’t gone more than a few yards before I was shot in the thigh",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "And"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "But my unfortunate orderly whom I’d – I thought I was doing the best I could for him – I told him to go on when I was hit (that is to say to go back) was hit on the way back and died",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "But",
+            "I’d"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "But I came through because I was lifted out by Canadian stretcher-bearers later in the morning",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "But",
+            "Canadian"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Well I said, ‘Get down, for God’s sake, or we’ll all be killed",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Well",
+            "God’s"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "By this time, we was all wounded, the six of us were all wounded, but none of us was killed",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "And all in the left arm and the left hand",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "And"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "This bullet had went into the muscle of my left arm, but it hadn’t touched the bone, it had come right out the back of my arm",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "This"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "British signaller Leonard Ounsworth was wounded by a shell on the Somme in July 1916 – not that he realised this at first",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "British",
+            "Leonard",
+            "Ounsworth",
+            "Somme",
+            "July"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Well, they’d both dropped had these two officers in front, and I started off",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Well,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "’ I said, ‘Yes,’ and so I started to walk on after them, no bones broken",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I know I was on guard – you do about two hours each, keeping your eye out in case anything happened – and we suddenly got shelled",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Nobody knew it was mustard gas: nobody knew it was gas at all, they thought it was just being shelled, you know, like an ordinary barrage all round us",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Nobody"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "But what happened, these shells when they burst they’d drop all on the floor, liquid",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "But"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Nobody knew until one or two chaps started being sick and a lot of the fellows were laying about going blind and sores all over their eyes",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Nobody"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "However a man was wounded, his comrades did their best to help him",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "However"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [
+      {
+        "event_index": 0,
+        "event_text": "During the First World War, the mass mobilisation of civilian armies coupled with fighting on an industrial scale led to unprecedented numbers of wounded",
+        "causal_keyword": "led to",
+        "type": "explicit_causal"
+      },
+      {
+        "event_index": 6,
+        "event_text": "But I came through because I was lifted out by Canadian stretcher-bearers later in the morning",
+        "causal_keyword": "because",
+        "type": "explicit_causal"
+      }
+    ],
+    "num_events": 19,
+    "num_causal_relations": 2
+  },
+  {
+    "filename": "survivor_024.txt",
+    "category": "other",
+    "author": null,
+    "date": null,
+    "location": null,
+    "events": [
+      {
+        "text": "Donald Murray became aware of increasing preparations during the summer",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Donald",
+            "Murray"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We didn’t realise then what was in the offing, but we soon learned because we started making preparations, preparing for a really big affair",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We started practising the attack, ready for the big attack, this big attack that was to come",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I started at dawn and went on until dusk",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Every evening a fatigue party arrived with water and food and mail and went away again",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Every"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Then I went back to the battery",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Then"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "It went on day after day, there were hours and hours of so much daylight, I wished to God it was midnight",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "God"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "It left a vivid impression on all those who witnessed it",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "British signaller Harry Wheeler recalled the deafening noise the artillery made",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "British",
+            "Harry",
+            "Wheeler"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "But the bombardment, when that started, it was what I always called the dance of hell",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "But"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Day and night, the shells, heavy and light ones, came upon us",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Day"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Our dugouts crumbled",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Our"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Soldiers in the bunkers became hysterical",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Soldiers"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [
+      {
+        "event_index": 1,
+        "event_text": "We didn’t realise then what was in the offing, but we soon learned because we started making preparations, preparing for a really big affair",
+        "causal_keyword": "because",
+        "type": "explicit_causal"
+      }
+    ],
+    "num_events": 13,
+    "num_causal_relations": 1
+  },
+  {
+    "filename": "diary_irving_138.txt",
+    "category": "diary",
+    "author": "Irving Greenwald.",
+    "date": "2 July 1918.",
+    "location": null,
+    "events": [
+      {
+        "text": "They were\ntaking down dead wire near OP and were\napparently spotted by German observation\n198balloon, which sent a recommendation that\nthey be shelled",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "German"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "He is shelled by us, so close to\nour town, that the shrapnel falls into the street,\nthrough the trees and in the garden",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 2,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "diary_irving_110.txt",
+    "category": "diary",
+    "author": "Irving Greenwald.",
+    "date": "3 June 1918.",
+    "location": null,
+    "events": [
+      {
+        "text": "Almost\nfinished with counting individual sums",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Almost"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Boiled beef, potatoes, boiled onions,\nbread, coffee",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Boiled"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Fox, whom I have always\nexcelled, is in good form fortunately, for the\nsuccess of assignment, but cruel to my\nfeelings",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Fox,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "He has not yet arrived",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Reagan has studied\nthe subject",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Reagan"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 5,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "wilf_098.txt",
+    "category": "other",
+    "author": "Wilfred Evans",
+    "date": "20 August 1917",
+    "location": "Racecourse Cairo Egypt",
+    "events": [
+      {
+        "text": "17\nMy dear mother, Since last I wrote your two welcome letters arrived after being sent to various addresses here in search of me",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Since"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I hope you have received my letters saying that Jack had arrived safely before this",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Jack"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We only moved across yesterday & I had a busy day riding over all the Camps to see that they had been left in a clean & sanitary condition for the troops who were coming in for their spell on the beach",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Camps"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I so arranged my day however that I arrived at the Rest Camp which is at present being managed by portion of the 3rd Ambulance just in time to have a swim & then lunch, or rather we had some morning tea a swim & then lunch",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Rest",
+            "Camp",
+            "Ambulance"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "By that time things were settled down & our bivouacs erected, as I had sent on my batman",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Today I have been riding round  the Division to see how the people who formerly occupied this area left it (& it wasn't very good either) & then returned here after lunching at the 4th Ambulance",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Today",
+            "Division",
+            "Ambulance"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "The day before we left the beach I rode down to see Worthington who has a Veterinary Section at present on the beach - he was once in the 9th Regt at same time as myself & afterwards lived at the Ambulance for a while",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Worthington",
+            "Veterinary",
+            "Section",
+            "Regt",
+            "Ambulance"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I think I told you that the \"baccy\" arrived safely thanks very much, if you could get Vice Regal next time I would be very glad of it for a change but please deduct the money from my cheque",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Vice",
+            "Regal"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I have not received the parcel yet from the Candelo association but expect it will be along in a day or two",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Candelo"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "In this war one meets people from all the ends of the earth,  - while writing this letter I was interrupted by a young signalling officer who wanted some information, & in conversation afterwards he told me that he was from Canada & began telling me lots of things about it, & yet he had a brother & other relations living in Mudgee",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Canada",
+            "Mudgee"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I heard the other day that young Bob Aspinall had been killed in France - poor kiddy - he was at school & Varsity with me & graduated later, then came over here & I saw him in Egypt before he went to France",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Bob",
+            "Aspinall",
+            "France",
+            "Varsity",
+            "Egypt",
+            "France"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 11,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "diary_irving_104.txt",
+    "category": "diary",
+    "author": "Irving Greenwald.",
+    "date": "28 May 1918.",
+    "location": null,
+    "events": [
+      {
+        "text": "I follow without knowledge of\nwhat is to follow",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Steak, onions, boiled potatoes, bread, coffee",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Steak,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 2,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "survivor_018.txt",
+    "category": "other",
+    "author": null,
+    "date": null,
+    "location": null,
+    "events": [
+      {
+        "text": "William Davies, who was living in London at the start of the war, remembered civilian reaction to soldiers who came home on leave in the early months",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "William",
+            "Davies,",
+            "London"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Jack Dorgan of the Northumberland Fusiliers was sent on his first home leave sooner than he had expected",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Jack",
+            "Dorgan",
+            "Northumberland",
+            "Fusiliers"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Our battalion went to France in April 1915 and in the first week in June, the colonel sent for me",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Our",
+            "France",
+            "April",
+            "June,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "He says, ‘Sergeant,’ he says, ‘I’ve just received this morning intimation from the War Office that leave can be started now",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "War",
+            "Office"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "’ I came out of his dugout, took off my hat – steel helmets weren’t invented then – and I put my Army-issue hat on the bankside and put a bullet through it",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Army-issue"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "So that when I went home back to England wearing a hat with a bullet hole through I could say, ‘That was a near one",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "England"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Every 10 months to 18 months – sometimes longer, sometimes shorter but usually about 12 months – we came on 10 days leave",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Every"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "That’s when we packed all our gear, went home complete with the dirt we’d accumulated in the front line, and then went home",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "That’s"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Because when I came back here at that time, well Wolverton and Bradwell was more like a ghost town because all your mates had joined the forces",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Because",
+            "Wolverton",
+            "Bradwell"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "If you went for a drink in the club or a pub, it seemed that all there was there was old men – well old men then, of course that’d be middle-aged men, men over 40, that wasn’t in the forces",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "The first night I came home, I got into my old bed and do you think I could sleep",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "And one of the first things I did was resurrected my old bike; pumped the tyres up; oiled it; cleaned it; and I rode round the old country, visiting the old scenes that I knew in peacetime",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "And"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "So we could go out nearly every day with the same or with another girl and went to theatres and all that",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "And that’s when we went to Boulogne",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "And",
+            "Boulogne"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [
+      {
+        "event_index": 5,
+        "event_text": "So that when I went home back to England wearing a hat with a bullet hole through I could say, ‘That was a near one",
+        "causal_keyword": "so that",
+        "type": "explicit_causal"
+      },
+      {
+        "event_index": 8,
+        "event_text": "Because when I came back here at that time, well Wolverton and Bradwell was more like a ghost town because all your mates had joined the forces",
+        "causal_keyword": "because",
+        "type": "explicit_causal"
+      }
+    ],
+    "num_events": 14,
+    "num_causal_relations": 2
+  },
+  {
+    "filename": "wilf_073.txt",
+    "category": "other",
+    "author": "Wilfred Evans",
+    "date": "11 December 1916",
+    "location": "Racecourse Cairo Egypt",
+    "events": [
+      {
+        "text": "1916  My dear mother,  Your welcome registered letter arrived a few days after  the other one - I can't just lay my hands on it at present to see if  there is anything to reply to",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Your"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We are still in the same place &  are fairly well settled & comfortable though we have been disturbed  lately by frequent alarms - have been turned out to \"boot & saddle\"  at very short notice but nothing eventuated",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "On the last  occasion when we had all assembled & our old Brigadier  was giving a speech a hostile aeroplane appeared  overhead & so we all had to scatter in quick time as  bombs might have a big effect on troops packed closely  together",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Brigadier"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Since I last wrote you, Stewart & Cave who are in  this Ambulance have been promoted to be Majors, they have been  out since the very beginning of the war so were quite due for  it",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Since",
+            "Stewart",
+            "Cave",
+            "Ambulance",
+            "Majors,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Stewart has been transferred to another Ambulance &   another fellow named Bassett has been sent here",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Stewart",
+            "Ambulance",
+            "Bassett"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "of this Ambulance came over to  lunch last week also Dawson who is from Sydney & has  now got his Lieutenant Colonelrey & one or two others so we  had quite a party",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Ambulance",
+            "Dawson",
+            "Sydney",
+            "Lieutenant",
+            "Colonelrey"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I went for a ride two or three days ago with  some other officers from the Brigade to some very  interesting ruins situated on the sea coast -  miles from here",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Brigade"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We took our lunch boiled the billy  - I had some sardines & fruit Mab had sent, bread  jam, & someone else provided cream cheese & chocolates  - not a bad little spread",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Mab"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "It is 115 yards long by  50 broad, the walls are all demolished but  the bases of the ivory marble pillars of which  there were about twenty still remain & a  couple of the pillars themselves lie on the  ground",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "They are  numbered 1 2 3 4 from left to right & they will require fitting carefully  together by getting the exact part where one joins the other  cutting away the unnecessary part & then pasting them together  at the back",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "So No I 1st on the left my dear then  No ĪĪ on its right & so on",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 11,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "tom_028.txt",
+    "category": "other",
+    "author": "Thomas Anderson Whyte",
+    "date": "26 March 1915",
+    "location": "Mena Camp Cairo Egypt",
+    "events": [
+      {
+        "text": "C5 went with it partly explanatory",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Birdwood\nhad cabled",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Birdwood"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 2,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "wilf_067.txt",
+    "category": "other",
+    "author": "Wilfred Evans",
+    "date": "12 November 1916",
+    "location": "Cairo Egypt",
+    "events": [
+      {
+        "text": "1916\nMy dear mother, Your two most welcome letters of Sept 21st & 28th arrived safely this week, rather later than the rest of the mail as our New South Wales letters are often a day or two behind the Victorian ones",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Your",
+            "Sept",
+            "New",
+            "South",
+            "Wales",
+            "Victorian"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Your letters have arrived very regularly now for some time past & I am sorry that you were rather worrying about them going astray as that occurred only several months ago, & then they turned up in the end",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Your"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "You were asking how long I was going to stay here, my dear, well really it is very hard to answer, as one is very much under the Control of the Military authorities & it very largely rests with them, otherwise I don't think I would be here very long, although I suppose one would hardly care to turn his back on things at the present stage",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "You",
+            "Control",
+            "Military"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "As regards going to France I don't think it's at all probable that we will be sent there, my dear, & if we are - well \"Kismet\" we have to go",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "France"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I have just been eating a piece of a beauty which was sent from \nEngland to Cave one of the officers here & we have had part of it for afternoon tea We are living quite well, have our own cook who was once a chef in one of the best places in Melbourne & also have an orderly to wait on us",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "England",
+            "Cave",
+            "Melbourne"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Several others of my friends have been killed in France besides Graham - W Jekyll & Broughton were two fine fellows both in my year at the Varsity & then several others in the years above & below",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Several",
+            "France",
+            "Graham",
+            "Jekyll",
+            "Broughton",
+            "Varsity"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Football is in full swing at present, matches have been arranged between the different regiments & it is quite pleasant to go & look at the matches although they play a different game to our usual one in N",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Football"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I hope you received the last letter safely with all the photos in it as you would find them interesting",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I'm getting quite a corporation, it looks as if I will present the good old picture of a family doc when I return, nice & portly & bald",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "I'm"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 9,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "Harold11.txt",
+    "category": "letter_personal",
+    "author": "Harold Edwin Salisbury",
+    "date": "15 March 1916",
+    "location": "TELE-KEBIR.",
+    "events": [
+      {
+        "text": "am going to write as usual - but especially so today, as\nthis afternoon your letter Pet 6th came to hand, I was\nexceedingly surprised to hear you'd had nothing from me\nsince Dec 23- it was very disappointing to hear that for\nI had sent a letter & parcel from Cairo on Jantor - brstheday\npresent for mum - & about a week later another parael bende\nthe regular letter & lmas wishes",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Pet",
+            "Dec",
+            "Cairo",
+            "Jantor"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Wumps also wrote - practically an ultimation becouse\nI had not written to her - well with shofting about\ntraining - lecturing, working all day long, t one does\nnot feel up to writing",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Wumps"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Iit has been an effort to even\nwrite to you - for really were no news to send\nUncle Will also wrote mentioning that he expected\nshould be a capt",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Iit",
+            "Uncle",
+            "Will"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "are excellent men they are batting\nhard for us - & I told me I was recommended\nso dve not put my tail between my legs yet",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Its a durned shame that such musteryevers\nshould make a blot on the name of Anzac\nFancy Ireland having to be recalled - surely dity\nwas sufficient",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Its",
+            "Anzac",
+            "Fancy",
+            "Ireland"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "3 16\nYour birthday started today Dad & you should\nhave read a letter with blotholon peetings",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Your",
+            "Dad"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I went out this afternoon to make a thorough reconmaning\nof Arabis trenches",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Arabis"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Ken Wewin is ie Batt Crderky Room\nHad a long talk with Guor, just before we came tack\nover the lanal - he looked very well",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Ken",
+            "Wewin",
+            "Batt",
+            "Crderky",
+            "Room",
+            "Had",
+            "Guor,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "F areas from which th\ncame",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "The backfround shows up well we could\ndo with a eight of those pines here it would do our\neyeright good after so much of this sany dicet life\nCansorship is very strict so no news to send\nmuch lone, best manen, shopes youne as well, as\ncall\n\nEnclosed supps may be handy- showing\nEgghtian types of life some I mean to get entarged\nnative home is mud walled but royed only in port trushes\nnactive bllafe makes a gova preture\nThe chost like lady on the truck was annoyed, when I tak\nher photo the women dislike being plectoed hence my wartirng\nfor 2 them round a cooner not a bad enap either\nThe hest is the little firl water carrier – the smile nut me\n2a partre ()",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Cansorship",
+            "Enclosed",
+            "Egghtian"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 10,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "tom_014.txt",
+    "category": "other",
+    "author": "Thomas Anderson Whyte",
+    "date": "3 January 1915",
+    "location": "Mena Camp Cairo Egypt",
+    "events": [
+      {
+        "text": "My Dear Sweetheart, I have left writing to you until Sunday afternoon this week",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Dear",
+            "Sweetheart,",
+            "Sunday"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "She wrote a general letter & very kindly offered to send anything I wanted in the way of socks, body belts etc",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "She mentions that Mr & Mrs Fallon called before leaving in the 'Osterley' Here is an extract from Stewarts letter 'I'm shortly going to desert & make for a \ncavalry regiment",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Mrs",
+            "Fallon",
+            "Here",
+            "Stewarts"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We then marched past in column of route (fours) & did it very well, so they told us",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "30 one or two tents collapsed on their occupants & the band started to quietly assemble",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "More tents collapsed and down went the canteen tent",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "More"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "The [[niggers]] inside were moaning in a most heartrending\nway when it started to shake",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We started off on a procession with the band, armed with every conceivable piece of metal capable of making a row Along the main road (named Canberra Road) we marched, picking up bands & half clothed soldiers until we must have been 2000 strong",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Along",
+            "Canberra",
+            "Road)"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Those who had had a drop were just in the right state to keep us amused New Years day we started on the new Company formations",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Those",
+            "New",
+            "Years",
+            "Company"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 9,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "bob_098.txt",
+    "category": "other",
+    "author": "Robert James Henderson",
+    "date": "25th June 1917",
+    "location": "Belgium",
+    "events": [
+      {
+        "text": "Author: Robert James Henderson\n\nLocation: Belgium\n Date: 25th June 1917\n\nMy dear Mum, Arrived back with the Battn last Saturday night from La Motte we are close to the line doing fatigue work which is all right except we are working under shell fire and usually lose a few men each day",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Author:",
+            "Robert",
+            "James",
+            "Henderson",
+            "Location:",
+            "Belgium",
+            "Date:",
+            "June",
+            "Mum,",
+            "Arrived",
+            "Battn",
+            "Saturday",
+            "Motte"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "We are leading for the cricket cup having a good game against the 4th Field Ambulance yesterday whom we beat by 20 runs with ten minutes  to go  started at 4-30PM and finished at 8-20PM when it was quite light if we meet the 16th Battn next Wednesday if not in the line again by that time",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Field",
+            "Ambulance",
+            "Battn",
+            "Wednesday"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Humphrey Browning is back again with the Battn and several other officers so we are fairly well off in that respect at present",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Humphrey",
+            "Browning",
+            "Battn"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Harry  Murray saw Len while he was across in England visiting the Henley's at the Windsor Hotel told me he was OK had his star up and I guess swanking in London generally unfortunately expect he will be across here again shortly hope to goodness his luck sticks to him Toby Bartons brother who has just received his commission and rejoined the 45th was killed in the last stunt isn't it rotten for his mother both boys gone now",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Harry",
+            "Murray",
+            "Len",
+            "England",
+            "Henley's",
+            "Windsor",
+            "Hotel",
+            "London",
+            "Toby",
+            "Bartons"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Well I have to  go and get the team practicing for the next match also a lot of letters to censor also some bridge to play everyone is back  from work having started at 3 am this  morning best love to all Bob Bad luck missing my last mail  it has been sent on to England but hope some comes back eventually",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Well",
+            "Bob",
+            "Bad",
+            "England"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 5,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "James2.txt",
+    "category": "letter_personal",
+    "author": "Arthur James Adams.",
+    "date": "1st May 1915.",
+    "location": "Valley of Death.",
+    "events": [
+      {
+        "text": "collect from Valley of Death in afternoon & again out at 8 pm 2nd May Sun\nHave a rest & watch the Navy heavily bombard observation station at Gaba Tepe also on the left flank",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Valley",
+            "Death",
+            "May",
+            "Sun",
+            "Have",
+            "Navy",
+            "Gaba",
+            "Tepe"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Sent cablegram home via Alexandria",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Sent",
+            "Alexandria"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Rush hit on foot May 6th Thurs\nOur camp under very heavy shrapnel fire all day & we crouch as far back a possible in our dug-outs 70 mules & many men killed & hundreds of wonderful escapes all around us\nShep shot through foot & Baker through hand",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Rush",
+            "May",
+            "Thurs",
+            "Our",
+            "Shep",
+            "Baker"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Go out to left flank to see G Henderson in afternoon & have a good yarn",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Henderson"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Have a race for life from 4th Dressing Stn, between the barricades, but see 5 shot dead and many wounded",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Have",
+            "Dressing",
+            "Stn,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Heavy Xplosive shells sent over our camp in evening but few hurt",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Heavy",
+            "Xplosive"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "May 10th Mon\nHear Cuckoo, Many shells sent to our camp but nobody hit",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "May",
+            "Mon",
+            "Hear",
+            "Cuckoo,",
+            "Many"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "May 13th Thurs Darcy wounded in arm (venous)",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "May",
+            "Thurs",
+            "Darcy"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Our position shelled periodically little damage \nMay 14th Friday Our position getting hell",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Our",
+            "May",
+            "Friday",
+            "Our"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "One 3rd Batt man killed just below us and while Capt Connek & one of our squads were attending him a shell burst within a foot or two of them, a little later a 4",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "One",
+            "Batt",
+            "Capt",
+            "Connek"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "7 cut through the corner of my dug out & shattered Pens right leg & tore up T Jones left leg, dig deeper at night",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Pens",
+            "Jones"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Take a walk in evening to left where we landed May 17th Mon Heavy shelling again",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Take",
+            "May",
+            "Mon",
+            "Heavy"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Part of 2nd Bde disembark again after being relieved at C Helles by RMLI's\nMay 18th Tues Turks attempt to mount guns on our left but the Lindon & Triumph soon get their range & fire two villiages & reported to blow up their batteries J Aber & a hundred other recovered cases come ashore at 6 pm",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Part",
+            "Bde",
+            "Helles",
+            "RMLI's",
+            "May",
+            "Tues",
+            "Turks",
+            "Lindon",
+            "Triumph",
+            "Aber"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Jack Simpson killed while  leading donk & patient",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Jack",
+            "Simpson"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Orders to sleep fully dressed & have to turn out for we are attacked by  Turks (heavily) who are repulsed with terrible losses",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Orders",
+            "Turks"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "cut off previous night in an advanced trench",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 16,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "dud_003.txt",
+    "category": "other",
+    "author": null,
+    "date": null,
+    "location": null,
+    "events": [
+      {
+        "text": "Letter sent in respect of Lieutenant A",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Letter",
+            "Lieutenant"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Henderson, \n\nRegiment: 7th Battalion, AIF, who died of wounds on board a hospital transport between 27 and 30 April 1915 (his father says he died on the night of April 25); and of Captain R",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Henderson,",
+            "Regiment:",
+            "Battalion,",
+            "AIF,",
+            "April",
+            "April",
+            "Captain"
+          ],
+          "LOCATION": [],
+          "DATE": [
+            "30 April 1915"
+          ]
+        },
+        "dates": [
+          "30 April 1915"
+        ]
+      },
+      {
+        "text": ", who while (according to his father) in command of his battalion, the other senior officers having previously been hit, was killed in action on 8 May 1915 during the Second Battle of Krithia in Gallipoli",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "May",
+            "Second",
+            "Battle",
+            "Krithia",
+            "Gallipoli"
+          ],
+          "LOCATION": [],
+          "DATE": [
+            "8 May 1915"
+          ]
+        },
+        "dates": [
+          "8 May 1915"
+        ]
+      },
+      {
+        "text": "Henderson: Accountant; of Hawthorn, Victoria; born Hawthorn, 8 July 1894; educated at Trinity Grammar School, Kew, Victoria; served in the junior and senior cadets of the C",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Henderson:",
+            "Accountant;",
+            "Hawthorn,",
+            "Victoria;",
+            "Hawthorn,",
+            "July",
+            "Trinity",
+            "Grammar",
+            "School,",
+            "Kew,",
+            "Victoria;"
+          ],
+          "LOCATION": [],
+          "DATE": [
+            "8 July 1894"
+          ]
+        },
+        "dates": [
+          "8 July 1894"
+        ]
+      },
+      {
+        "text": "Henderson: Estate agent; of Hawthorn; born Hawthorn; educated at Trinity Grammar School, Kew; served in junior and senior cadets, and was a captain in the Citizen Forces; age at time of death, 22",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Henderson:",
+            "Estate",
+            "Hawthorn;",
+            "Hawthorn;",
+            "Trinity",
+            "Grammar",
+            "School,",
+            "Kew;",
+            "Citizen",
+            "Forces;"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [
+      {
+        "source": 1,
+        "target": 2,
+        "type": "temporal_sequence"
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "type": "temporal_sequence"
+      }
+    ],
+    "num_events": 5,
+    "num_causal_relations": 2
+  },
+  {
+    "filename": "will_010.txt",
+    "category": "other",
+    "author": "William Birdwood",
+    "date": "15 May 1915.",
+    "location": null,
+    "events": [
+      {
+        "text": "I was so glad too to get the little snap shots you sent",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I have found him such a good fellow to work with in every way - always wanting to do his best to help us, & as you may care to see it I enclose such a nice letter he wrote me saying good bye",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "They however I fear will not come in, at all events at present, or in time to do us much good",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "It takes a long time though to settle details which are endless in such matters & I certainly thought we should have landed a good fortnight earlier than we did - one lucky thing we didn't do so was that settled fine weather only started the day we landed & it has been absolutely lovely ever since - just perfect summer weather",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I imagine she will be rather Australian, but it was nice of her to have called",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Australian,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 5,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "will_038.txt",
+    "category": "other",
+    "author": "William Birdwood",
+    "date": "8 December 1915.",
+    "location": "Daedanelles",
+    "events": [
+      {
+        "text": "And I have just had a wire to  say that an Austrian submarine has captured the mails we  sent from here on 30th last month - they say that some of the letters were  rescued by two ladies",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "And",
+            "Austrian"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I certainly sent one letter by him to you -  and I rather think two, for there had been no chance of writing  for some time - and I think I sent letters to both Nancy & Chris  with photos & stamps",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Nancy",
+            "Chris"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "It is hard to remember what letters went  by that particular mail, but I rather think it would have contained   a long one I wrote from H",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Mrs Hilton's money  for Chris - all the parcels you have sent me, & all of which I have  I think received - your investments etc",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Mrs",
+            "Hilton's",
+            "Chris"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Isn't it awfully   annoying this sort of thing happening, for it means one never  knows where one is - what we have either of us received or not,  if letters are liable to be captured one has to be so very  careful in future to write nothing about events here",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Isn't"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I hope Major Storr will have sent you that New Zealand greenstone \"Tiki\" which Sir H",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Major",
+            "Storr",
+            "New",
+            "Zealand",
+            "Sir"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Meux sent me",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Meux"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I think he was then, or became afterwards Pollok- Moins, but has now become Pollok-McCall - money I suppose  in commanding a Territorial Brigade",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Pollok-",
+            "Moins,",
+            "Pollok-McCall",
+            "Territorial",
+            "Brigade"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 8,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "norm_058.txt",
+    "category": "other",
+    "author": "Norman Griffiths Ellsworth",
+    "date": "12 February 1917",
+    "location": "No 1 Boyton Camp Codford Wilts England",
+    "events": [
+      {
+        "text": "My Dearest Mother, & all at Home, I have at last received the long-looked for parcels",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Dearest",
+            "Mother,",
+            "Home,"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "As you already know, it is the coldest weather for years, & the water is frozen everywhere, - even in the fire buckets in the huts, & we have to light fires under the troughs to give the horses a drink, & so you can see that the vest was sorely tried, but came out \"trumps\"",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 2,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "jim_048.txt",
+    "category": "other",
+    "author": "James Joseph Makin",
+    "date": "20 September 1916",
+    "location": "Belgrave Hotel, Chester",
+    "events": [
+      {
+        "text": "His division has been shifted from the Somme front, and they are at present near Ypres in Flanders from what I can hear",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "His",
+            "Somme",
+            "Ypres",
+            "Flanders"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I am afraid the parcels sent by Ruby and yourselves will never reach me",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Ruby"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "I have been recommended for 3 months' light duty in England by the O",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "England"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "It is 8 weeks since they occurred, so you can see how things are",
+        "type": "action",
+        "entities": {
+          "PERSON": [],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "They are not merely skilled workers, but absolutely qualified explosive experts, so one can pardon them for not wanting to go to France",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "France"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 5,
+    "num_causal_relations": 0
+  },
+  {
+    "filename": "bob_067.txt",
+    "category": "other",
+    "author": "Robert James Henderson Date: 21.1.1917.",
+    "date": "21.1.1917.",
+    "location": null,
+    "events": [
+      {
+        "text": "Had made all arrangements to leave the hospital  tomorrow in fact booked at a room at the Jermyn Court hotel Piccadilly where I intended to stay for a while until I had my medical board & found out how much leave I get  Asked the doctor to sign my papers for discharge to-day he had a look at my leg and said he would recomend me for light duty told him that was no good to me stuck in camp somewhere  in England he said  if I went back to France now it might break down again still I do not believe him it feels quite strong again now however he induced me to wait and see the specialist who operated and get his advice tomorrow on the matter shall let you know later the result Feel as if I could go back  now but will not do so against his advice",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Had",
+            "Jermyn",
+            "Court",
+            "Piccadilly",
+            "Asked",
+            "England",
+            "France",
+            "Feel"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "Then you know my dear one is contracting bad habits you know when one can go out when one likes and  come in when one likes nothing to do all day and a little money to spend how simple it is to get contract bad habits especially in London Still have looked at things from the proper  standpoint to date but after this long spell shall  find it hard to settle down to work again Have finished up with the dentist now thank goodness and hope to have no more trouble with my teeth for the duration Any how while at dinner two nights ago there was  a terrific explosion The conclusion was that bad windows crashed etc  thought it was bombs from a Zepplin but proved to be a munition factory blown up almost 3 miles  away",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Then",
+            "London",
+            "Still",
+            "Have",
+            "Any",
+            "Zepplin"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      },
+      {
+        "text": "The damage & loss of life was bad but of course very vague information has come through they cannot  say much about these things in the press at the present time Have no more news for the present  Trust you are all well at home love to all, Bob",
+        "type": "action",
+        "entities": {
+          "PERSON": [
+            "Have",
+            "Trust",
+            "Bob"
+          ],
+          "LOCATION": [],
+          "DATE": []
+        },
+        "dates": []
+      }
+    ],
+    "causal_relations": [],
+    "num_events": 3,
+    "num_causal_relations": 0
+  }
+]
