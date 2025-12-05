@@ -49,6 +49,22 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "history_002.txt",
+    "cause_text": "He told Parliament at the end of August 1916: In view of certain urgent and grave communications from the War Council of Great Britain, and of the present state of the war, and the duty of Australia in regard thereto, and as a result of long and earnest deliberation, the Government have arrived at the conclusion that the voluntary system of recruiting cannot be relied upon to supply that steady stream of reinforcements necessary to maintain the Australian Expeditionary Forces at their full strength.148 He then went on to spell out the exact nature of the problem: The number of reinforcements required for next month is 32,500, and subsequently 16,500 a month.",
+    "effect_file": "history_003.txt",
+    "effect_text": "In this context, on 3 August the federal Cabinet made two offers to the British Government: to place the Australian fleet under Admiralty control and to despatch an expeditionary force overseas.[21](\"https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1415/AustToWar1914#_ftn21\") Although some Australian Labor Party members and trade unionists (particularly those of Irish descent) expressed concern at the outset of the war about the level of Australia’s involvement and lack of consultation from Britain, it was only later in the war, and particularly after the heavy losses of Australian troops, that there was a more widespread sense in both Australia and the other dominions that their interests were not always the same as Britain’s.",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "history_003.txt",
+    "cause_text": "When it mobilised against Russia, Germany therefore also demanded that France remain neutral.",
+    "effect_file": "history_015.txt",
+    "effect_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
     "cause_file": "history_003.txt",
     "cause_text": "Britain delivered an ultimatum to Germany that Belgium be kept neutral, and following an ‘unsatisfactory reply’ declared war on Germany on 4 August 1914.",
     "effect_file": "history_002.txt",
@@ -57,10 +73,58 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "history_003.txt",
+    "cause_text": "Russia and Germany … have declared war upon each other … [France is] involved in it because of their obligation of honour under a definite alliance with Russia … .",
+    "effect_file": "history_015.txt",
+    "effect_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "history_003.txt",
+    "cause_text": "In this context, on 3 August the federal Cabinet made two offers to the British Government: to place the Australian fleet under Admiralty control and to despatch an expeditionary force overseas.[21](\"https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1415/AustToWar1914#_ftn21\") Although some Australian Labor Party members and trade unionists (particularly those of Irish descent) expressed concern at the outset of the war about the level of Australia’s involvement and lack of consultation from Britain, it was only later in the war, and particularly after the heavy losses of Australian troops, that there was a more widespread sense in both Australia and the other dominions that their interests were not always the same as Britain’s.",
+    "effect_file": "history_002.txt",
+    "effect_text": "He told Parliament at the end of August 1916: In view of certain urgent and grave communications from the War Council of Great Britain, and of the present state of the war, and the duty of Australia in regard thereto, and as a result of long and earnest deliberation, the Government have arrived at the conclusion that the voluntary system of recruiting cannot be relied upon to supply that steady stream of reinforcements necessary to maintain the Australian Expeditionary Forces at their full strength.148 He then went on to spell out the exact nature of the problem: The number of reinforcements required for next month is 32,500, and subsequently 16,500 a month.",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
     "cause_file": "survivor_044.txt",
     "cause_text": "They caused the most frightful commotion and the Germans kept on thinking they were being attacked.",
     "effect_file": "survivor_028.txt",
     "effect_text": "The Germans held on to some trenches at the bottom of the ridge and they caused quite a few casualties from rifle fire, from snipers.",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "history_015.txt",
+    "cause_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
+    "effect_file": "history_003.txt",
+    "effect_text": "Germany’s war plan was based on the threat of a two-front war against both France and Russia (due to their mutual alliance commitments), and relied on a quick victory over France before turning east against Russia.",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "history_015.txt",
+    "cause_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
+    "effect_file": "history_003.txt",
+    "effect_text": "When it mobilised against Russia, Germany therefore also demanded that France remain neutral.",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "history_015.txt",
+    "cause_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
+    "effect_file": "history_003.txt",
+    "effect_text": "Russia and Germany … have declared war upon each other … [France is] involved in it because of their obligation of honour under a definite alliance with Russia … .",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "history_001.txt",
+    "cause_text": "Medical advances made the First World War the first major conflict in which British deaths in battle outnumbered deaths caused by disease.",
+    "effect_file": "history_003.txt",
+    "effect_text": "By then, another 60,000 had died from wounds or illnesses caused by the war.[9](\"https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1415/AustToWar1914#_ftn9\") According to Professor Joan Beaumont, the deaths caused by the First World War, (and those caused by the influenza epidemic that immediately followed) changed the demographics of the Australian population: The 1933 national census revealed 21,500 fewer men aged 35-39 years—who had been 12-20 in 1914-1919—than in the 30-34 year old cohort.",
     "confidence": 1.0
   },
   {
@@ -77,6 +141,14 @@
     "cause_text": "Intense fighting on that first day led to further German gains and heavy British losses.",
     "effect_file": "survivor_008.txt",
     "effect_text": "When German infantry advanced in large numbers during the battle, rapid British rifle fire resulted in heavy losses.",
+    "confidence": 1.0
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "bob_023.txt",
+    "cause_text": "All the heads in creation here so this chicken had to swank also consequently when after arriving here and getting fixed up went straight into Cairo and bought clothes boots etc to make myself presentable of course this sort or thing is most expensive I spent about £7-10-0 yesterday and seem to have nothing really however I cabled to Father yesterday to send £35 to the Anglo Egyptian Bank Cairo so that should see me through for a while.",
+    "effect_file": "wilf_070.txt",
+    "effect_text": "Did I tell to you that when in Cairo I drew all the back pay I had due to me as I have not spent all the 10/- per day I draw over here, because when we are in the desert it does not cost us very much to live & put it in the Anglo Egyptian bank in Cairo I could not get the cheque until I was just leaving & so was short of money at the end of my stay having only a small amount of ready cash when I had purchased clothes Etc.",
     "confidence": 1.0
   },
   {
@@ -105,6 +177,14 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "bob_072.txt",
+    "cause_text": "My dear Mum, Have just seen the procession in connection with the opening of parliament it was all very interesting and of course the most interesting part to me was that I had an excellent view of the kn King and Queen who drove in an open carriage We were invited to some mans office to see the show very nice too tea, coffee sandwiches whiskey & soda was served to us in the meantime then saw the whole show again on its way back to the Palace from the street in fact was quite close to Cousin George as Uncle Evan would say so had a good look at him also the Queen it was all most interesting Had lunch in Town with Humphrey Browning after the show some little chop house I have discovered in London behind the Regent Palace hotel no show no tablecloth but the best cooked meal I have ever tasted and the price quite moderate.",
+    "effect_file": "bob_077.txt",
+    "effect_text": "My dear Mum Went up for my medical board yesterday morning I was thoroughly disgusted and fed up of the whole show they kept me waiting from 9-30 in the morning until 12 o'clock I said yes to all their questions being put through the third degree and as I wanted was marked General Service fit they asked me how far I could walk without getting tired in the bad leg I replied anything up to 20 miles they seemed rather taken back it was quite good fun personally I was in a furious temper being kept hanging around for so long characteristic of course of headquarters However I have 14 days leave am due to report at Perham Downs on the 12th March from there shall go straight across to France shall cable you just before leaving London Am staying at the Regent Palace Hotel and likely to stay there all the time unless I go down to Brighton for a few days the weather here is just getting lovely again Celebrated my first day out of hospital yesterday quite well H.Q all the morning met Ralf Kell who is across here in hospital again wounded very slightly though had lunch with him kicked around until five o'clock with him then met some chaps across here at the club had tea here met a girl at seven o'clock had dinner after which we went to The Bing Girls at the Alambreha Theatre it is a topping show much better I thought than the Bing Boys The show came out about 11-30 pm went on then to the Trocadero for supper it was very gay and nice Of course a proper course supper and two bands one for rag time music only the other ordinary as soon as one finishes the other goes on so that one has continuous music which is varied every second item being all the latest rag - time I enjoyed it all very much everything being very gay wanted to take the lass I was with and rag right down the supper room however that could not be done Left the Troc.",
+    "confidence": 0.99
+  },
+  {
+    "type": "cross_file",
     "cause_file": "survivor_027.txt",
     "cause_text": "The outrage following the sinking – in which over 1,000 lives were lost – resulted in Germany abandoning unrestricted submarine warfare in September 1915.",
     "effect_file": "america_003.txt",
@@ -121,32 +201,8 @@
   },
   {
     "type": "cross_file",
-    "cause_file": "history_002.txt",
-    "cause_text": "He told Parliament at the end of August 1916: In view of certain urgent and grave communications from the War Council of Great Britain, and of the present state of the war, and the duty of Australia in regard thereto, and as a result of long and earnest deliberation, the Government have arrived at the conclusion that the voluntary system of recruiting cannot be relied upon to supply that steady stream of reinforcements necessary to maintain the Australian Expeditionary Forces at their full strength.148 He then went on to spell out the exact nature of the problem: The number of reinforcements required for next month is 32,500, and subsequently 16,500 a month.",
-    "effect_file": "history_003.txt",
-    "effect_text": "In this context, on 3 August the federal Cabinet made two offers to the British Government: to place the Australian fleet under Admiralty control and to despatch an expeditionary force overseas.[21](\"https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1415/AustToWar1914#_ftn21\") Although some Australian Labor Party members and trade unionists (particularly those of Irish descent) expressed concern at the outset of the war about the level of Australia’s involvement and lack of consultation from Britain, it was only later in the war, and particularly after the heavy losses of Australian troops, that there was a more widespread sense in both Australia and the other dominions that their interests were not always the same as Britain’s.",
-    "confidence": 0.99
-  },
-  {
-    "type": "cross_file",
     "cause_file": "history_003.txt",
-    "cause_text": "When it mobilised against Russia, Germany therefore also demanded that France remain neutral.",
-    "effect_file": "history_015.txt",
-    "effect_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
-    "confidence": 0.99
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "history_003.txt",
-    "cause_text": "Russia and Germany … have declared war upon each other … [France is] involved in it because of their obligation of honour under a definite alliance with Russia … .",
-    "effect_file": "history_015.txt",
-    "effect_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
-    "confidence": 0.99
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "history_003.txt",
-    "cause_text": "In this context, on 3 August the federal Cabinet made two offers to the British Government: to place the Australian fleet under Admiralty control and to despatch an expeditionary force overseas.[21](\"https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1415/AustToWar1914#_ftn21\") Although some Australian Labor Party members and trade unionists (particularly those of Irish descent) expressed concern at the outset of the war about the level of Australia’s involvement and lack of consultation from Britain, it was only later in the war, and particularly after the heavy losses of Australian troops, that there was a more widespread sense in both Australia and the other dominions that their interests were not always the same as Britain’s.",
+    "cause_text": "Similarly, when British Prime Minister Neville Chamberlain announced on 3 September 1939 that Britain was at war with Germany, Australia was again automatically at war, with Australia’s Prime Minister Robert Menzies announcing on the radio (one hour and fifteen minutes later): ‘it is my melancholy duty to inform you officially, that in consequence of a persistence by Germany in her invasion of Poland, Great Britain has declared war upon her and that, as a result, Australia is also at war’.[24](\"https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1415/AustToWar1914#_ftn24\") Nevertheless, while parliamentary approval is not legally required, a democratic government in the Westminster tradition needs, as a matter of political reality, to enjoy the confidence of the lower house.[25] As Lindell points out, parliament can move a motion of no-confidence in the government, but also has the power to ‘legislate to regulate and limit the exercise of prerogative powers’ such as those used to declare war, as well as continued control over the expenditure of money to fight the war, and the power to hold inquiries under section 49 of the Constitution.",
     "effect_file": "history_002.txt",
     "effect_text": "He told Parliament at the end of August 1916: In view of certain urgent and grave communications from the War Council of Great Britain, and of the present state of the war, and the duty of Australia in regard thereto, and as a result of long and earnest deliberation, the Government have arrived at the conclusion that the voluntary system of recruiting cannot be relied upon to supply that steady stream of reinforcements necessary to maintain the Australian Expeditionary Forces at their full strength.148 He then went on to spell out the exact nature of the problem: The number of reinforcements required for next month is 32,500, and subsequently 16,500 a month.",
     "confidence": 0.99
@@ -163,24 +219,8 @@
     "type": "cross_file",
     "cause_file": "history_015.txt",
     "cause_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
-    "effect_file": "history_003.txt",
-    "effect_text": "Germany’s war plan was based on the threat of a two-front war against both France and Russia (due to their mutual alliance commitments), and relied on a quick victory over France before turning east against Russia.",
-    "confidence": 0.99
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "history_015.txt",
-    "cause_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
-    "effect_file": "history_003.txt",
-    "effect_text": "When it mobilised against Russia, Germany therefore also demanded that France remain neutral.",
-    "confidence": 0.99
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "history_015.txt",
-    "cause_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
-    "effect_file": "history_003.txt",
-    "effect_text": "Russia and Germany … have declared war upon each other … [France is] involved in it because of their obligation of honour under a definite alliance with Russia … .",
+    "effect_file": "battle_008.txt",
+    "effect_text": "Germany had concentrated all of its resources on the Western Front after the defeat of Russia.",
     "confidence": 0.99
   },
   {
@@ -217,6 +257,14 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "battle_010.txt",
+    "cause_text": "After the defeat of Russia, Germany had concentrated all of its resources on the Western Front, while facing them were weary Allied forces that had been on the offensive for 3 years.",
+    "effect_file": "history_015.txt",
+    "effect_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
+    "confidence": 0.99
+  },
+  {
+    "type": "cross_file",
     "cause_file": "will_085.txt",
     "cause_text": "However like you in France we are killing off Bulgars & Bosches - at the Dardanelles they have mounted some by guns & are trying to bombard me out of the straits Mines are of course being laid every where - after I had arrived at Corfu they laid a line of mines to catch me on my way back, but fortunately I got wind of these & so came back another way - The Germans sent a very strong bombing squadron out here & they have been doing a lot of damage to the Hospitals & dumps at & round Salonica As the army machines were weak & not numerous I got Milne to let me form a combined \"Army & Navy\" Squadron fighters & bombers and they have been very successful & have broken up the Eurwigs Squadron- I am now collecting up all the Generalist Troops from all the Aegean Islands, We hope in the course of the next few weeks to make the Greek army up to 50 or 60-000 Good, bad, & indifferent - We follow your movements in France very closely and quite hope to see the Germans out of France this Summer- I think it is wonderful the way we turn them out of their trenches & dug outs and I can only hope that our losses will continue to be small in comparison with those of the Germans - How you must all be looking forward to the Summer after the dreadfully long cold muddy winter - I Presented some decorations & medals to our French allies yesterday for good service during the Dardanelles operation, I suppose it is our Admiralties way of doing things but it struck me as rather a long time after the event- I hope you will write to me again when you find time I am always tremendously interested in all your doings on the Western front.",
     "effect_file": "simpson_010.txt",
@@ -225,10 +273,10 @@
   },
   {
     "type": "cross_file",
-    "cause_file": "bob_023.txt",
-    "cause_text": "All the heads in creation here so this chicken had to swank also consequently when after arriving here and getting fixed up went straight into Cairo and bought clothes boots etc to make myself presentable of course this sort or thing is most expensive I spent about £7-10-0 yesterday and seem to have nothing really however I cabled to Father yesterday to send £35 to the Anglo Egyptian Bank Cairo so that should see me through for a while.",
-    "effect_file": "wilf_070.txt",
-    "effect_text": "Did I tell to you that when in Cairo I drew all the back pay I had due to me as I have not spent all the 10/- per day I draw over here, because when we are in the desert it does not cost us very much to live & put it in the Anglo Egyptian bank in Cairo I could not get the cheque until I was just leaving & so was short of money at the end of my stay having only a small amount of ready cash when I had purchased clothes Etc.",
+    "cause_file": "battle_008.txt",
+    "cause_text": "Germany had concentrated all of its resources on the Western Front after the defeat of Russia.",
+    "effect_file": "history_015.txt",
+    "effect_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
     "confidence": 0.99
   },
   {
@@ -369,6 +417,14 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "survivor_022.txt",
+    "cause_text": "Here, Marmaduke Walkinton – known as Leslie – reads from his letter home following the 1914 Christmas Truce.",
+    "effect_file": "survivor_010.txt",
+    "effect_text": "So I think it’s alright.’ British private Marmaduke Walkinton explained how the close proximity of the enemy led to increased communication between the two sides.",
+    "confidence": 0.91
+  },
+  {
+    "type": "cross_file",
     "cause_file": "survivor_036.txt",
     "cause_text": "The situation then worsened when Germany began following a policy of ‘unrestricted submarine warfare’ which reduced the volume of supplies reaching Britain.",
     "effect_file": "survivor_027.txt",
@@ -429,14 +485,6 @@
     "cause_text": "Britain delivered an ultimatum to Germany that Belgium be kept neutral, and following an ‘unsatisfactory reply’ declared war on Germany on 4 August 1914.",
     "effect_file": "survivor_049.txt",
     "effect_text": "Following the end of the war, British troops served in the Army of Occupation in Germany.",
-    "confidence": 0.91
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "history_003.txt",
-    "cause_text": "Similarly, when British Prime Minister Neville Chamberlain announced on 3 September 1939 that Britain was at war with Germany, Australia was again automatically at war, with Australia’s Prime Minister Robert Menzies announcing on the radio (one hour and fifteen minutes later): ‘it is my melancholy duty to inform you officially, that in consequence of a persistence by Germany in her invasion of Poland, Great Britain has declared war upon her and that, as a result, Australia is also at war’.[24](\"https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1415/AustToWar1914#_ftn24\") Nevertheless, while parliamentary approval is not legally required, a democratic government in the Westminster tradition needs, as a matter of political reality, to enjoy the confidence of the lower house.[25] As Lindell points out, parliament can move a motion of no-confidence in the government, but also has the power to ‘legislate to regulate and limit the exercise of prerogative powers’ such as those used to declare war, as well as continued control over the expenditure of money to fight the war, and the power to hold inquiries under section 49 of the Constitution.",
-    "effect_file": "history_002.txt",
-    "effect_text": "He told Parliament at the end of August 1916: In view of certain urgent and grave communications from the War Council of Great Britain, and of the present state of the war, and the duty of Australia in regard thereto, and as a result of long and earnest deliberation, the Government have arrived at the conclusion that the voluntary system of recruiting cannot be relied upon to supply that steady stream of reinforcements necessary to maintain the Australian Expeditionary Forces at their full strength.148 He then went on to spell out the exact nature of the problem: The number of reinforcements required for next month is 32,500, and subsequently 16,500 a month.",
     "confidence": 0.91
   },
   {
@@ -505,10 +553,10 @@
   },
   {
     "type": "cross_file",
-    "cause_file": "history_015.txt",
-    "cause_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
-    "effect_file": "battle_008.txt",
-    "effect_text": "Germany had concentrated all of its resources on the Western Front after the defeat of Russia.",
+    "cause_file": "history_001.txt",
+    "cause_text": "Medical advances made the First World War the first major conflict in which British deaths in battle outnumbered deaths caused by disease.",
+    "effect_file": "history_009.txt",
+    "effect_text": "Following the outbreak of the First World War(\"https://www.iwm.org.uk/history/first-world-war\") in August 1914, he displayed great competence as Chancellor but became disillusioned with Asquith's leadership.",
     "confidence": 0.91
   },
   {
@@ -577,14 +625,6 @@
   },
   {
     "type": "cross_file",
-    "cause_file": "battle_010.txt",
-    "cause_text": "After the defeat of Russia, Germany had concentrated all of its resources on the Western Front, while facing them were weary Allied forces that had been on the offensive for 3 years.",
-    "effect_file": "history_015.txt",
-    "effect_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
-    "confidence": 0.91
-  },
-  {
-    "type": "cross_file",
     "cause_file": "battle_005.txt",
     "cause_text": "Named after the Russian commander Aleksei Brusilov(\"https://en.wikipedia.org/wiki/Aleksei_Brusilov\") who led it, the offensive used tactics that were to also prove successful on the Western Front.",
     "effect_file": "battle_010.txt",
@@ -617,10 +657,26 @@
   },
   {
     "type": "cross_file",
-    "cause_file": "battle_008.txt",
-    "cause_text": "Germany had concentrated all of its resources on the Western Front after the defeat of Russia.",
-    "effect_file": "history_015.txt",
-    "effect_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
+    "cause_file": "norm_031.txt",
+    "cause_text": "All the Drivers & horses are still in Alexandria & of course Braithwaite & Jack Hall are there too, so it looks as if they will keep us in Gaba Tepe after the advance has begun.",
+    "effect_file": "diary_tubb_1915_06_13.txt",
+    "effect_text": "The place where our men landed at Gaba Tepe is now known as Anzac Cove so named because of the Australian & New Zealand Army Corp.",
+    "confidence": 0.91
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "norm_031.txt",
+    "cause_text": "All the Drivers & horses are still in Alexandria & of course Braithwaite & Jack Hall are there too, so it looks as if they will keep us in Gaba Tepe after the advance has begun.",
+    "effect_file": "norm_007.txt",
+    "effect_text": "Author: Norman Griffiths Ellsworth Nationality: Australian Text: Military song Tell Jack Tilton that Jack Heywood has grown a beard & looks like & Prehistoric Man (it is on account of a skin complaint Braithwaite has grown a moustache & looks a lad.",
+    "confidence": 0.91
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "norm_031.txt",
+    "cause_text": "All the Drivers & horses are still in Alexandria & of course Braithwaite & Jack Hall are there too, so it looks as if they will keep us in Gaba Tepe after the advance has begun.",
+    "effect_file": "diary_tubb_013.txt",
+    "effect_text": "The place where our men landed at Gaba Tepe is now known as Anzac Cove so named because of the Australian & New Zealand Army Corp.",
     "confidence": 0.91
   },
   {
@@ -653,6 +709,14 @@
     "cause_text": "I forgot to tell you, I went thro all the underground tunnels which the Engineers have dug under the Turks trenches, & they reach & wind in all directions, & when I was down one, I could hear the Turks digging & scraping in their trenches When the time is ripe, our Engineers are are going to put a big enough charge of Guncotton in each \"Sap\" & \"up goes the unspeakable Turk\", then the Artillery gets to work with time Shrapnel & catch them on the run.",
     "effect_file": "wilf_057.txt",
     "effect_text": "I was with our artillery observer once & through the glasses could see the Turks returning up a hill & our shrapnel bursting amongst them as they went & following them up under the directions of this officer.",
+    "confidence": 0.91
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "survivor_010.txt",
+    "cause_text": "So I think it’s alright.’ British private Marmaduke Walkinton explained how the close proximity of the enemy led to increased communication between the two sides.",
+    "effect_file": "survivor_022.txt",
+    "effect_text": "Here, Marmaduke Walkinton – known as Leslie – reads from his letter home following the 1914 Christmas Truce.",
     "confidence": 0.91
   },
   {
@@ -729,6 +793,30 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "will_067.txt",
+    "cause_text": "Author: J W Legge Date: 16 February 1917 Location: London Nationality: British Text: London 16 February 1917 Dear Sir With reference to my telegram concerning an appeal to G.H.Q., the copy of the cable you sent to Australia is certainly not quite what I had been led to believe.",
+    "effect_file": "jim_008.txt",
+    "effect_text": "Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road London Date: 25 May 1918 Nationality: Australian Text: My dear Mother & father, Since my letter of a week ago I have not received any further letters from home, and consequently I have not got as much news to write about.",
+    "confidence": 0.9
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "will_067.txt",
+    "cause_text": "Author: J W Legge Date: 16 February 1917 Location: London Nationality: British Text: London 16 February 1917 Dear Sir With reference to my telegram concerning an appeal to G.H.Q., the copy of the cable you sent to Australia is certainly not quite what I had been led to believe.",
+    "effect_file": "rollo_108.txt",
+    "effect_text": "Author: Harold Edwin Salisbury Location: France Date: 2 March 1917 Nationality: Australian Text: Dear Father & Mother,- I recd your cable yesterday telling me that George had just left A, & was due to arrive in Eng.",
+    "confidence": 0.9
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "will_067.txt",
+    "cause_text": "Author: J W Legge Date: 16 February 1917 Location: London Nationality: British Text: London 16 February 1917 Dear Sir With reference to my telegram concerning an appeal to G.H.Q., the copy of the cable you sent to Australia is certainly not quite what I had been led to believe.",
+    "effect_file": "wilf_085.txt",
+    "effect_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
+    "confidence": 0.9
+  },
+  {
+    "type": "cross_file",
     "cause_file": "history_002.txt",
     "cause_text": "There were large public meetings supporting Home Rule in May and June 1914, which Fisher and other Labor leaders had attended, countered by anti-Home Rule demonstrations.95 Furthermore, the Senate, where Labor had a clear majority, had passed a resolution of support (25 to 5) on 25 June 1914: That, in view of the opinion expressed by the London Times, that “Nothing just now could exercise a more salutary influence,” in Great Britain, “ than an authoritative pronouncement by the overseas peoples upon the Irish question,” and accepting that journal as interpreting correctly the feelings of an important section of the inhabitants of Great Britain and Ireland, the Senate desires to reaffirm, and does hereby re-affirm, the Address to His Majesty the late King, passed on the 23rd November, 1905, as follows : - “ That, in accordance with the most treasured traditions of British Government and British justice, and for the cementing of the Empire into one harmonious whole, this Senate is of opinion that Home Rule should be granted to Ireland.”9 At midnight on Tuesday 4 August (central European time) [Wednesday 5 August in Australia], Britain’s ultimatum to Germany over its invasion of Belgium expired and therefore Britain and its Empire were at war.97 Australia received official notification via the Governor-General just after midday.98 At Britain’s request a small volunteer force, the Australian Naval and Military Expeditionary Force (AN&MEF), was assembled in August 1914 to invade German New Guinea and destroy German wireless stations, while New Zealand occupied the Pacific colony of German Samoa and Japan declared war on Germany.",
     "effect_file": "history_003.txt",
@@ -779,6 +867,14 @@
     "type": "cross_file",
     "cause_file": "jim_008.txt",
     "cause_text": "Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road London Date: 25 May 1918 Nationality: Australian Text: My dear Mother & father, Since my letter of a week ago I have not received any further letters from home, and consequently I have not got as much news to write about.",
+    "effect_file": "will_067.txt",
+    "effect_text": "Author: J W Legge Date: 16 February 1917 Location: London Nationality: British Text: London 16 February 1917 Dear Sir With reference to my telegram concerning an appeal to G.H.Q., the copy of the cable you sent to Australia is certainly not quite what I had been led to believe.",
+    "confidence": 0.9
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "jim_008.txt",
+    "cause_text": "Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road London Date: 25 May 1918 Nationality: Australian Text: My dear Mother & father, Since my letter of a week ago I have not received any further letters from home, and consequently I have not got as much news to write about.",
     "effect_file": "rollo_065.txt",
     "effect_text": "Author: Harold Edwin Salisbury Date: 5 June 1916 Location: Egypt to France Nationality: Australian Text: Dear Father & Mother - It is nearly a fortnight since I last wrote, but owing to all mails out or in being stopped indefinitely, it has perhaps been hardly worth writing, even if circumstances had allowed us time to write letters.",
     "confidence": 0.9
@@ -817,10 +913,34 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "jim_008.txt",
+    "cause_text": "Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road London Date: 25 May 1918 Nationality: Australian Text: My dear Mother & father, Since my letter of a week ago I have not received any further letters from home, and consequently I have not got as much news to write about.",
+    "effect_file": "wilf_085.txt",
+    "effect_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
+    "confidence": 0.9
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "wilf_085.txt",
+    "cause_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
+    "effect_file": "will_067.txt",
+    "effect_text": "Author: J W Legge Date: 16 February 1917 Location: London Nationality: British Text: London 16 February 1917 Dear Sir With reference to my telegram concerning an appeal to G.H.Q., the copy of the cable you sent to Australia is certainly not quite what I had been led to believe.",
+    "confidence": 0.9
+  },
+  {
+    "type": "cross_file",
     "cause_file": "wilf_085.txt",
     "cause_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
     "effect_file": "simpson_012.txt",
     "effect_text": "Author: John Simpson Kickpatrick Date: 24 January 1915 Rank: Private Location: Mena Camp Cairo Nationality: Australian Text: 24 January 1915 Dear Mother Just a line to let you know that I received your welcome letter the other day I am glad to hear that you and Annie are keeping well for I am keeping in the best of health I am sorry to tell you that we are still in camp at Mena I am beginning to think that we are here for good for I dont think there is any signs of us leaving for a long while yet There has been some fighting here in Egypt with the Turks there has been about six hundred prisoners come into Cairo this week from the canal There was two Battalions went down to the canal from our contingent last week but I have not heard whether they got down to the canal in time to have a hand in the [[scre?]] last week Now Mother I told you last week that my officer had sent a [[f?]] to Sir George Ried to see about [[yo?]] my money paid over to you [[?]] I have wrote to the Manager of th Commonwealth Bank in London today so that you might be able to draw the money all the quicker For at the rate of two Shilling per day by the time you get this letter you should have about twelve pound due to you so when you get this letter write straightaway to the Manager of the commonwealth Bank in London and if nessersary show him this letter and I think that you should be able to draw the money all right Now Mother I hope that this will find you and Annie in the best of health and with love to you and Annie I remain your Loving Son, Jack DONATED RECORDS LIST 3424 3rd Series The Australian Imperial Expeditionary Force (W.A.",
+    "confidence": 0.9
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "wilf_085.txt",
+    "cause_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
+    "effect_file": "jim_008.txt",
+    "effect_text": "Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road London Date: 25 May 1918 Nationality: Australian Text: My dear Mother & father, Since my letter of a week ago I have not received any further letters from home, and consequently I have not got as much news to write about.",
     "confidence": 0.9
   },
   {
@@ -849,6 +969,14 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "bob_065.txt",
+    "cause_text": "My dear Mum, Just fancy being in this place over 4 months now who would have thought it at first it is indeed a long time to be in hospital of course I am quite all right again now except for a little weakness in the right leg and the question arises whether a chap could stand the strain of long marches with gear to carry and as things are very quiet at the front now see no necessity to hurry as far as can see I could stay here indefinitely and swing the lead properly but I shall not shall probably get them to give me my discharge about the end of next week and at present intend to stay at the Regent Palace Hotel Piccadilly Circus of course until going before a medical board do not know how much leave if any I shall get but expect about a fortnight and in that time I may go across to Ireland nothing like taking the opportunity of seeing all one can.",
+    "effect_file": "bob_077.txt",
+    "effect_text": "My dear Mum Went up for my medical board yesterday morning I was thoroughly disgusted and fed up of the whole show they kept me waiting from 9-30 in the morning until 12 o'clock I said yes to all their questions being put through the third degree and as I wanted was marked General Service fit they asked me how far I could walk without getting tired in the bad leg I replied anything up to 20 miles they seemed rather taken back it was quite good fun personally I was in a furious temper being kept hanging around for so long characteristic of course of headquarters However I have 14 days leave am due to report at Perham Downs on the 12th March from there shall go straight across to France shall cable you just before leaving London Am staying at the Regent Palace Hotel and likely to stay there all the time unless I go down to Brighton for a few days the weather here is just getting lovely again Celebrated my first day out of hospital yesterday quite well H.Q all the morning met Ralf Kell who is across here in hospital again wounded very slightly though had lunch with him kicked around until five o'clock with him then met some chaps across here at the club had tea here met a girl at seven o'clock had dinner after which we went to The Bing Girls at the Alambreha Theatre it is a topping show much better I thought than the Bing Boys The show came out about 11-30 pm went on then to the Trocadero for supper it was very gay and nice Of course a proper course supper and two bands one for rag time music only the other ordinary as soon as one finishes the other goes on so that one has continuous music which is varied every second item being all the latest rag - time I enjoyed it all very much everything being very gay wanted to take the lass I was with and rag right down the supper room however that could not be done Left the Troc.",
+    "confidence": 0.89
+  },
+  {
+    "type": "cross_file",
     "cause_file": "survivor_036.txt",
     "cause_text": "The situation then worsened when Germany began following a policy of ‘unrestricted submarine warfare’ which reduced the volume of supplies reaching Britain.",
     "effect_file": "history_003.txt",
@@ -861,14 +989,6 @@
     "cause_text": "The situation then worsened when Germany began following a policy of ‘unrestricted submarine warfare’ which reduced the volume of supplies reaching Britain.",
     "effect_file": "history_015.txt",
     "effect_text": "I think at the heart of Britain's anxieties it came down really to Britain fearing German domination of Europe because if a victorious but hostile Germany dominated the continent and threatened Britain's position in the world that was just intolerable for Britain.",
-    "confidence": 0.89
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "will_067.txt",
-    "cause_text": "Author: J W Legge Date: 16 February 1917 Location: London Nationality: British Text: London 16 February 1917 Dear Sir With reference to my telegram concerning an appeal to G.H.Q., the copy of the cable you sent to Australia is certainly not quite what I had been led to believe.",
-    "effect_file": "wilf_085.txt",
-    "effect_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
     "confidence": 0.89
   },
   {
@@ -893,6 +1013,14 @@
     "cause_text": "There were large public meetings supporting Home Rule in May and June 1914, which Fisher and other Labor leaders had attended, countered by anti-Home Rule demonstrations.95 Furthermore, the Senate, where Labor had a clear majority, had passed a resolution of support (25 to 5) on 25 June 1914: That, in view of the opinion expressed by the London Times, that “Nothing just now could exercise a more salutary influence,” in Great Britain, “ than an authoritative pronouncement by the overseas peoples upon the Irish question,” and accepting that journal as interpreting correctly the feelings of an important section of the inhabitants of Great Britain and Ireland, the Senate desires to reaffirm, and does hereby re-affirm, the Address to His Majesty the late King, passed on the 23rd November, 1905, as follows : - “ That, in accordance with the most treasured traditions of British Government and British justice, and for the cementing of the Empire into one harmonious whole, this Senate is of opinion that Home Rule should be granted to Ireland.”9 At midnight on Tuesday 4 August (central European time) [Wednesday 5 August in Australia], Britain’s ultimatum to Germany over its invasion of Belgium expired and therefore Britain and its Empire were at war.97 Australia received official notification via the Governor-General just after midday.98 At Britain’s request a small volunteer force, the Australian Naval and Military Expeditionary Force (AN&MEF), was assembled in August 1914 to invade German New Guinea and destroy German wireless stations, while New Zealand occupied the Pacific colony of German Samoa and Japan declared war on Germany.",
     "effect_file": "survivor_001.txt",
     "effect_text": "In the 1920s and the 1930s you see definite examples of how the Christmas truce changes in its depiction because there was a much greater emphasis then on the German soldier as a hero fighting a noble war, whereas the Christmas truce conflicts with that to a degree, so in Germany in particular the Christmas truce goes out of favour definitely in the 20s and 30s, whereas in Britain it continues to be a popular celebrated story as part of the First World War.\" The letters and photographs that reached home in Britain confirmed that this remarkable event had indeed taken place, but it was one that was not to be repeated.",
+    "confidence": 0.89
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "history_002.txt",
+    "cause_text": "He told Parliament at the end of August 1916: In view of certain urgent and grave communications from the War Council of Great Britain, and of the present state of the war, and the duty of Australia in regard thereto, and as a result of long and earnest deliberation, the Government have arrived at the conclusion that the voluntary system of recruiting cannot be relied upon to supply that steady stream of reinforcements necessary to maintain the Australian Expeditionary Forces at their full strength.148 He then went on to spell out the exact nature of the problem: The number of reinforcements required for next month is 32,500, and subsequently 16,500 a month.",
+    "effect_file": "history_003.txt",
+    "effect_text": "Similarly, when British Prime Minister Neville Chamberlain announced on 3 September 1939 that Britain was at war with Germany, Australia was again automatically at war, with Australia’s Prime Minister Robert Menzies announcing on the radio (one hour and fifteen minutes later): ‘it is my melancholy duty to inform you officially, that in consequence of a persistence by Germany in her invasion of Poland, Great Britain has declared war upon her and that, as a result, Australia is also at war’.[24](\"https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp1415/AustToWar1914#_ftn24\") Nevertheless, while parliamentary approval is not legally required, a democratic government in the Westminster tradition needs, as a matter of political reality, to enjoy the confidence of the lower house.[25] As Lindell points out, parliament can move a motion of no-confidence in the government, but also has the power to ‘legislate to regulate and limit the exercise of prerogative powers’ such as those used to declare war, as well as continued control over the expenditure of money to fight the war, and the power to hold inquiries under section 49 of the Constitution.",
     "confidence": 0.89
   },
   {
@@ -969,6 +1097,14 @@
   },
   {
     "type": "cross_file",
+    "cause_file": "history_015.txt",
+    "cause_text": "When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side.",
+    "effect_file": "battle_010.txt",
+    "effect_text": "After the defeat of Russia, Germany had concentrated all of its resources on the Western Front, while facing them were weary Allied forces that had been on the offensive for 3 years.",
+    "confidence": 0.89
+  },
+  {
+    "type": "cross_file",
     "cause_file": "battle_008.txt",
     "cause_text": "Germany had concentrated all of its resources on the Western Front after the defeat of Russia.",
     "effect_file": "history_003.txt",
@@ -993,50 +1129,10 @@
   },
   {
     "type": "cross_file",
-    "cause_file": "jim_008.txt",
-    "cause_text": "Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road London Date: 25 May 1918 Nationality: Australian Text: My dear Mother & father, Since my letter of a week ago I have not received any further letters from home, and consequently I have not got as much news to write about.",
-    "effect_file": "wilf_085.txt",
-    "effect_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
-    "confidence": 0.89
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "elmer_017.txt",
-    "cause_text": "From The First Gas Regiment: “By May 21st, preparations, both at the post and at the front, were so far completed that the First Battalion received orders to move, and the following day the battalion set out in trucks for the Toul sector of the American front.",
-    "effect_file": "elmer_014.txt",
-    "effect_text": "From The Story of the First Gas Regiment: “The most striking celebration of our new unity as a regiment was given in a review of The 30th held by Colonel Fries on May 3 at the Gas Experimental Field – a day when hardly a man could help feeling, with something of a thrill, what the past seven months had seen achieved and what the next seven might hold in store.",
-    "confidence": 0.89
-  },
-  {
-    "type": "cross_file",
     "cause_file": "survivor_049.txt",
     "cause_text": "Following the end of the war, British troops served in the Army of Occupation in Germany.",
     "effect_file": "america_001.txt",
     "effect_text": "However, following Germany’s resumption of unrestricted submarine warfare in February, the British decided to use the note to help sway U.S.",
-    "confidence": 0.89
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "elmer_014.txt",
-    "cause_text": "From The Story of the First Gas Regiment: “The most striking celebration of our new unity as a regiment was given in a review of The 30th held by Colonel Fries on May 3 at the Gas Experimental Field – a day when hardly a man could help feeling, with something of a thrill, what the past seven months had seen achieved and what the next seven might hold in store.",
-    "effect_file": "elmer_017.txt",
-    "effect_text": "From The First Gas Regiment: “By May 21st, preparations, both at the post and at the front, were so far completed that the First Battalion received orders to move, and the following day the battalion set out in trucks for the Toul sector of the American front.",
-    "confidence": 0.89
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "wilf_085.txt",
-    "cause_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
-    "effect_file": "will_067.txt",
-    "effect_text": "Author: J W Legge Date: 16 February 1917 Location: London Nationality: British Text: London 16 February 1917 Dear Sir With reference to my telegram concerning an appeal to G.H.Q., the copy of the cable you sent to Australia is certainly not quite what I had been led to believe.",
-    "confidence": 0.89
-  },
-  {
-    "type": "cross_file",
-    "cause_file": "wilf_085.txt",
-    "cause_text": "Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear mother, Events have for some time past been so mixed up that I hardly know when I last wrote to you but fancy it is only about a week ago, though the last week has seemed ages as we have had rather a rough time.",
-    "effect_file": "jim_008.txt",
-    "effect_text": "Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road London Date: 25 May 1918 Nationality: Australian Text: My dear Mother & father, Since my letter of a week ago I have not received any further letters from home, and consequently I have not got as much news to write about.",
     "confidence": 0.89
   },
   {
@@ -1046,6 +1142,14 @@
     "effect_file": "norm_048.txt",
     "effect_text": "He wants to try & get me to England, but I believe Australians & New Zealanders have some difficulty in getting past Alexandria owing to some rivalry between the Australian Authorities & the Imperial Authorities, & this may possibly block me from a nice little trip to the old Country, nevertheless the Dr Is doing his best for me to get to England, and both he & the nurse have been telling me of the different places of interest that I should see, & what bus to take & all that sort of thing, so you see they are awfully nice to me.",
     "confidence": 0.89
+  },
+  {
+    "type": "cross_file",
+    "cause_file": "history_001.txt",
+    "cause_text": "Medical advances made the First World War the first major conflict in which British deaths in battle outnumbered deaths caused by disease.",
+    "effect_file": "history_003.txt",
+    "effect_text": "As the Australian War Memorial states, for Australia, the First World War remains our most costly conflict in terms of deaths and casualties.",
+    "confidence": 0.86
   },
   {
     "type": "cross_file",

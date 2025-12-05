@@ -1,862 +1,213 @@
-================================================================================
-CAUSE-EFFECT MAPPING
-================================================================================
-
-CAUSES
---------------------------------------------------------------------------------
-
-C1 [wall_023.txt]:
-    according to reports our areoplanes dropped bombs on an ammunition store in
-    Lille which is just about 6 miles the other side of our trenches opposite us
-    & blew it up and caused an explosion which blew up two streets & at another
-    time our big guns got range out to a big white farm that the Germans used
-    ...
-
-C2 [rollo_015.txt]:
-    Author: Harold Edwin Salisbury Location: Serapeum Date: 6 May 1916
-    Nationality: Australian Text: We are anxious to take the initiative - &
-    hence our delight in being told we're to go to Rail-head - a place in rear
-    of Habeita.
-
-C3 [survivor_008.txt]:
-    When German infantry advanced in large numbers during the battle, rapid
-    British rifle fire resulted in heavy losses.
-
-C4 [history_002.txt]:
-    There were large public meetings supporting Home Rule in May and June 1914,
-    which Fisher and other Labor leaders had attended, countered by anti-Home
-    Rule demonstrations.95 Furthermore, the Senate, where Labor had a clear
-    majority, had passed a resolution of support (25 to 5) on 25 June 1914:
-    ...
-
-C5 [history_003.txt]:
-    Britain delivered an ultimatum to Germany that Belgium be kept neutral, and
-    following an ‘unsatisfactory reply’ declared war on Germany on 4 August
-    1914.
-
-C6 [survivor_044.txt]:
-    They caused the most frightful commotion and the Germans kept on thinking
-    they were being attacked.
-
-C7 [bob_016.txt]:
-    Henley in Alexandria & Leslie has seen him we should get all our parcels etc
-    now Leslie in the best of health he has nothing to do with me now however
-    often have a yarn with him Biddy Baston has charge of A Company also see a
-    good deal of him Mr Herring has charge of the Battalion so that we know
-    ...
-
-C8 [survivor_042.txt]:
-    Intense fighting on that first day led to further German gains and heavy
-    British losses.
-
-C9 [wilf_085.txt]:
-    Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse
-    Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My
-    dear mother, Events have for some time past been so mixed up that I hardly
-    know when I last wrote to you but fancy it is only about a week ago, though
-    ...
-
-C10 [america_003.txt]:
-    Public opinion began to shift away from neutrality following Germany’s
-    sinking of the Lusitania in May 1915, which resulted in the deaths of nearly
-    1,200 passengers, including 128 Americans.
-
-C11 [survivor_027.txt]:
-    The outrage following the sinking – in which over 1,000 lives were lost –
-    resulted in Germany abandoning unrestricted submarine warfare in September
-    1915.
-
-C12 [norm_049.txt]:
-    I missed the Mauretania after all, through them changing the Drs just when
-    Scott had sorted out his patients who were to go away & the new chap said
-    that he did not want any patients sent away for at least a week so that he
-    might become acquainted with their condition so this settles us for the
-    ...
-
-C13 [history_002.txt]:
-    He told Parliament at the end of August 1916: In view of certain urgent and
-    grave communications from the War Council of Great Britain, and of the
-    present state of the war, and the duty of Australia in regard thereto, and
-    as a result of long and earnest deliberation, the Government have arrived at
-    ...
-
-C14 [history_003.txt]:
-    When it mobilised against Russia, Germany therefore also demanded that
-    France remain neutral.
-
-C15 [history_003.txt]:
-    Russia and Germany … have declared war upon each other … [France is]
-    involved in it because of their obligation of honour under a definite
-    alliance with Russia … .
-
-C16 [history_003.txt]:
-    In this context, on 3 August the federal Cabinet made two offers to the
-    British Government: to place the Australian fleet under Admiralty control
-    and to despatch an expeditionary force overseas.[21]("https://www.aph.gov.au
-    /About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp
-    ...
-
-C17 [survivor_046.txt]:
-    Intense fighting continued over the following days as Allied forces sought
-    to push the Germans back.
-
-C18 [history_015.txt]:
-    When Germany, in support of its ally, then declared war on Russia that
-    brought France into the war on Russia's side.
-
-C19 [battle_006.txt]:
-    Following their retreat, the Germans re-engaged Allied forces on the Aisne,
-    where fighting began to stagnate into trench warfare.
-
-C20 [battle_010.txt]:
-    After the defeat of Russia, Germany had concentrated all of its resources on
-    the Western Front, while facing them were weary Allied forces that had been
-    on the offensive for 3 years.
-
-C21 [will_085.txt]:
-    However like you in France we are killing off Bulgars & Bosches - at the
-    Dardanelles they have mounted some by guns & are trying to bombard me out of
-    the straits Mines are of course being laid every where - after I had arrived
-    at Corfu they laid a line of mines to catch me on my way back, but
-    ...
-
-C22 [bob_023.txt]:
-    All the heads in creation here so this chicken had to swank also
-    consequently when after arriving here and getting fixed up went straight
-    into Cairo and bought clothes boots etc to make myself presentable of course
-    this sort or thing is most expensive I spent about £7-10-0 yesterday and
-    ...
-
-C23 [survivor_024.txt]:
-    There was evidently some sort of truce in the dawn because the Germans were
-    carrying out their casualties.
-
-C24 [bob_106.txt]:
-    What do you think of this for stiffness am just due for leave either to
-    England or Paris and expected to get away any day now when news has just
-    come along that for the present all leave is cancelled so that now I expect
-    one will have to wait of until after the stunt if lucky enough to pull
-    ...
-
-C25 [america_001.txt]:
-    Secretary of State Robert Lansing a note declaring Germany’s intention to
-    restart unrestricted submarine warfare the following day.
-
-C26 [america_001.txt]:
-    However, following Germany’s resumption of unrestricted submarine warfare in
-    February, the British decided to use the note to help sway U.S.
-
-C27 [survivor_032.txt]:
-    The Germans staged a number of counter attacks but key objectives were
-    secured in the following few days.
-
-C28 [survivor_036.txt]:
-    The situation then worsened when Germany began following a policy of
-    ‘unrestricted submarine warfare’ which reduced the volume of supplies
-    reaching Britain.
-
-C29 [survivor_036.txt]:
-    Allied aircraft also bombed German cities, which caused much the same panic
-    amongst the population as in Britain.
-
-C30 [survivor_034.txt]:
-    And it came about, I think, to a large degree because the Germans had a
-    weapon they called a minenwerfer.
-
-C31 [survivor_047.txt]:
-    So we set off, following the Germans up, you know.
-
-C32 [history_003.txt]:
-    Similarly, when British Prime Minister Neville Chamberlain announced on 3
-    September 1939 that Britain was at war with Germany, Australia was again
-    automatically at war, with Australia’s Prime Minister Robert Menzies
-    announcing on the radio (one hour and fifteen minutes later): ‘it is my
-    ...
-
-C33 [jim_002.txt]:
-    The weather is finer and warmer, and consequently much more appreciated by
-    Australians than months of winter.
-
-C34 [survivor_046.txt]:
-    Owing to the British attacks in the north of us and in the south and even
-    right down to the Americans were making advances in the south – well that
-    meant to say if the Germans didn’t withdraw, they were going to be left in
-    the salient and the troops would go in behind them and capture the whole
-    ...
-
-C35 [survivor_044.txt]:
-    In response to American outrage, Germany abandoned unrestricted U-boat
-    attacks – but resumed them again early in 1917.
-
-C36 [survivor_044.txt]:
-    I think, myself, it’s only an opinion, that if the Americans hadn’t come in,
-    it would either have been stalemate – because the Germans had had enough too
-    – and there would have had to have been a negotiated peace.
-
-C37 [survivor_044.txt]:
-    And the sergeant there, the first words he said when he was in our trenches
-    were, ‘Where are the goddam Germans?’ Someone told him, ‘Just over there.’ I
-    says, ‘You’ll know where they are when you’ve been here a few days, when
-    they start throwing the shells about…!’ Alexander Stanier, an officer in the
-    ...
-
-C38 [will_075.txt]:
-    They will not understand that the Germans had to retire because they could
-    not stay where they were, & fears of traps, counter-attacks &c are freely
-    discussed.
-
-C39 [battle_004.txt]:
-    In the summer, the Germans were forced to reduce their strength at Verdun
-    after the British and Russians launched their own offensives elsewhere.
-
-C40 [battle_010.txt]:
-    Named after the Russian commander who led it, the attack used short, sharp
-    artillery bombardments and shock troops to exploit weak points, which helped
-    return an element of surprise to the attack.
-
-C41 [battle_005.txt]:
-    Named after the Russian commander Aleksei
-    Brusilov("https://en.wikipedia.org/wiki/Aleksei_Brusilov") who led it, the
-    offensive used tactics that were to also prove successful on the Western
-    Front.
-
-C42 [battle_005.txt]:
-    It was their last major offensive of the war and led to an overall weakening
-    – both militarily and politically – of both Russia and Austria-Hungary.
-
-C43 [battle_008.txt]:
-    Germany had concentrated all of its resources on the Western Front after the
-    defeat of Russia.
-
-C44 [diary_rich_j_117.txt]:
-    Our troops and a Comfort Fund people went into it and five days after the
-    Germans left it they blew it up with a contact mine.
-
-C45 [survivor_048.txt]:
-    And of course, when we found out that they were the closest to the Germans,
-    we stopped and we stood in that place until… must have been oh, half past
-    12, one o'clock before the order was given to retire.
-
-C46 [survivor_049.txt]:
-    Following the end of the war, British troops served in the Army of
-    Occupation in Germany.
-
-C47 [norm_037.txt]:
-    I forgot to tell you, I went thro all the underground tunnels which the
-    Engineers have dug under the Turks trenches, & they reach & wind in all
-    directions, & when I was down one, I could hear the Turks digging & scraping
-    in their trenches When the time is ripe, our Engineers are are going to put
-    ...
-
-C48 [survivor_010.txt]:
-    When we were on the line at Sailly, Christmas 1914, there was a bit of a
-    truce there you know and the Germans stopped firing, we stopped firing.
-
-C49 [survivor_010.txt]:
-    This runner came along when I was on this fatigue job and said, ‘You’re
-    wanted again to interpret.’ I said, ‘What is it this time?’ He said,
-    ‘There’s a drunk German in our trenches and he won’t go back!’ So I went up
-    and saw our platoon officer there and he said, ‘Williams, there’s this chap
-    ...
-
-C50 [norm_052.txt]:
-    No more Australians are coming to England till after the winter.
-
-C51 [survivor_028.txt]:
-    Of course the Germans they hadn’t a chance there because the operation had
-    been well planned and well carried out and the objectives were achieved.
-
-C52 [survivor_028.txt]:
-    The Germans held on to some trenches at the bottom of the ridge and they
-    caused quite a few casualties from rifle fire, from snipers.
-
-C53 [survivor_028.txt]:
-    But afterwards there was such a congestion on that gap and there was such a
-    slaughter went on, because the Germans they sprung up all over the place
-    with machine guns.
-
-C54 [norm_054.txt]:
-    but of course I did not know anything of it until Aug 2nd when B/ called &
-    only two miles away, but we were all sent further back for the Germans were
-    shelling a village not far away, & the shells were whizzing over our heads,
-    we did not return until the following Tuesday Aug 2nd.
-
-C55 [jim_015.txt]:
-    Author: James Joseph Makins Location: War Hospital Epsom Surrey England
-    Date: 7 August 1916 Nationality: Australian Text: I daresay by the time you
-    receive this note you will have heard that I am in England recovering from
-    the shock caused by one of Fritz's high explosive shells bursting alongside
-    ...
-
-C56 [simpson_013.txt]:
-    I got a letter from you the other day and some papers I am sorry to hear
-    that the Germans got so near to Shields but I dont think that you have much
-    to fear of any thing of the sort occurring again for they would get too hot
-    a time from our fleet for I suppose that they are keeping an extra sharp
-    ...
-
-C57 [jim_008.txt]:
-    Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road
-    London Date: 25 May 1918 Nationality: Australian Text: My dear Mother &
-    father, Since my letter of a week ago I have not received any further
-    letters from home, and consequently I have not got as much news to write
-    ...
-
-C58 [will_067.txt]:
-    Author: J W Legge Date: 16 February 1917 Location: London Nationality:
-    British Text: London 16 February 1917 Dear Sir With reference to my telegram
-    concerning an appeal to G.H.Q., the copy of the cable you sent to Australia
-    is certainly not quite what I had been led to believe.
-
-C59 [history_003.txt]:
-    Following the September 1914 election, Fisher took office (for the third
-    time) and his government pursued a policy of fully supporting Britain’s war
-    effort.
-
-C60 [survivor_044.txt]:
-    Walter Greenwood, a schoolboy in Britain at the time, remembered the anger
-    felt towards Germany after the attack.
-
-C61 [elmer_017.txt]:
-    From The First Gas Regiment: “By May 21st, preparations, both at the post
-    and at the front, were so far completed that the First Battalion received
-    orders to move, and the following day the battalion set out in trucks for
-    the Toul sector of the American front.
-
-C62 [elmer_014.txt]:
-    From The Story of the First Gas Regiment: “The most striking celebration of
-    our new unity as a regiment was given in a review of The 30th held by
-    Colonel Fries on May 3 at the Gas Experimental Field – a day when hardly a
-    man could help feeling, with something of a thrill, what the past seven
-    ...
-
-C63 [will_027.txt]:
-    I had one more biggish fight since our big advance, in taking a hill on my
-    left, during which we had nearly 2000 casualties, but I am glad to say
-    caused losses of at least between 4 and 5000 to the Turks.
-
-C64 [survivor_032.txt]:
-    Walter Cook of the Royal Army Medical Corps described the misery this
-    caused.
-
-C65 [survivor_026.txt]:
-    After the close of the Battle of the Somme in November 1916, the men on the
-    Western Front dug in for the coming winter.
-
-================================================================================
-EFFECTS
---------------------------------------------------------------------------------
-
-E1 [will_085.txt]:
-    However like you in France we are killing off Bulgars & Bosches - at the
-    Dardanelles they have mounted some by guns & are trying to bombard me out of
-    the straits Mines are of course being laid every where - after I had arrived
-    at Corfu they laid a line of mines to catch me on my way back, but
-    ...
-
-E2 [rollo_065.txt]:
-    Author: Harold Edwin Salisbury Date: 5 June 1916 Location: Egypt to France
-    Nationality: Australian Text: Dear Father & Mother - It is nearly a
-    fortnight since I last wrote, but owing to all mails out or in being stopped
-    indefinitely, it has perhaps been hardly worth writing, even if
-    ...
-
-E3 [rollo_108.txt]:
-    Author: Harold Edwin Salisbury Location: France Date: 2 March 1917
-    Nationality: Australian Text: Dear Father & Mother,- I recd your cable
-    yesterday telling me that George had just left A, & was due to arrive in
-    Eng.
-
-E4 [survivor_042.txt]:
-    Intense fighting on that first day led to further German gains and heavy
-    British losses.
-
-E5 [history_003.txt]:
-    Britain delivered an ultimatum to Germany that Belgium be kept neutral, and
-    following an ‘unsatisfactory reply’ declared war on Germany on 4 August
-    1914.
-
-E6 [history_003.txt]:
-    In this context, on 3 August the federal Cabinet made two offers to the
-    British Government: to place the Australian fleet under Admiralty control
-    and to despatch an expeditionary force overseas.[21]("https://www.aph.gov.au
-    /About_Parliament/Parliamentary_Departments/Parliamentary_Library/pubs/rp/rp
-    ...
-
-E7 [history_002.txt]:
-    There were large public meetings supporting Home Rule in May and June 1914,
-    which Fisher and other Labor leaders had attended, countered by anti-Home
-    Rule demonstrations.95 Furthermore, the Senate, where Labor had a clear
-    majority, had passed a resolution of support (25 to 5) on 25 June 1914:
-    ...
-
-E8 [survivor_028.txt]:
-    The Germans held on to some trenches at the bottom of the ridge and they
-    caused quite a few casualties from rifle fire, from snipers.
-
-E9 [simpson_010.txt]:
-    Dear Mother Just a line to let you know that I am still in Cairo It is X Mas
-    Day today I was look forward to spending today in Shields but I was doomed
-    to be disappointed I would not have joined this contingent if I had known
-    that they were not going to England I would have taken the trip home and had
-    ...
-
-E10 [survivor_008.txt]:
-    When German infantry advanced in large numbers during the battle, rapid
-    British rifle fire resulted in heavy losses.
-
-E11 [Harold13.txt]:
-    Author: Harold Edwin Salisbury Location: Egypt to France Date: 5 June 1916
-    Nationality: Australian Text: TRIP From Egypt to France 1 Dear Father &
-    Mother - It is nearly a fortnight since I last wrote, but owing to all mails
-    out and in being stopped indefinitely, it has perhaps been hardly worth
-    ...
-
-E12 [survivor_027.txt]:
-    The outrage following the sinking – in which over 1,000 lives were lost –
-    resulted in Germany abandoning unrestricted submarine warfare in September
-    1915.
-
-E13 [america_003.txt]:
-    Public opinion began to shift away from neutrality following Germany’s
-    sinking of the Lusitania in May 1915, which resulted in the deaths of nearly
-    1,200 passengers, including 128 Americans.
-
-E14 [history_015.txt]:
-    When Germany, in support of its ally, then declared war on Russia that
-    brought France into the war on Russia's side.
-
-E15 [history_002.txt]:
-    He told Parliament at the end of August 1916: In view of certain urgent and
-    grave communications from the War Council of Great Britain, and of the
-    present state of the war, and the duty of Australia in regard thereto, and
-    as a result of long and earnest deliberation, the Government have arrived at
-    ...
-
-E16 [battle_006.txt]:
-    Following their retreat, the Germans re-engaged Allied forces on the Aisne,
-    where fighting began to stagnate into trench warfare.
-
-E17 [history_003.txt]:
-    Germany’s war plan was based on the threat of a two-front war against both
-    France and Russia (due to their mutual alliance commitments), and relied on
-    a quick victory over France before turning east against Russia.
-
-E18 [history_003.txt]:
-    When it mobilised against Russia, Germany therefore also demanded that
-    France remain neutral.
-
-E19 [history_003.txt]:
-    Russia and Germany … have declared war upon each other … [France is]
-    involved in it because of their obligation of honour under a definite
-    alliance with Russia … .
-
-E20 [simpson_012.txt]:
-    Author: John Simpson Kickpatrick Date: 24 January 1915 Rank: Private
-    Location: Mena Camp Cairo Nationality: Australian Text: 24 January 1915 Dear
-    Mother Just a line to let you know that I received your welcome letter the
-    other day I am glad to hear that you and Annie are keeping well for I am
-    ...
-
-E21 [survivor_046.txt]:
-    Intense fighting continued over the following days as Allied forces sought
-    to push the Germans back.
-
-E22 [wilf_070.txt]:
-    Did I tell to you that when in Cairo I drew all the back pay I had due to me
-    as I have not spent all the 10/- per day I draw over here, because when we
-    are in the desert it does not cost us very much to live & put it in the
-    Anglo Egyptian bank in Cairo I could not get the cheque until I was just
-    ...
-
-E23 [history_002.txt]:
-    There had been heavy losses on the Western Front as Germany had been able to
-    focus its forces there.
-
-E24 [survivor_028.txt]:
-    Of course the Germans they hadn’t a chance there because the operation had
-    been well planned and well carried out and the objectives were achieved.
-
-E25 [america_001.txt]:
-    Secretary of State Robert Lansing a note declaring Germany’s intention to
-    restart unrestricted submarine warfare the following day.
-
-E26 [america_001.txt]:
-    However, following Germany’s resumption of unrestricted submarine warfare in
-    February, the British decided to use the note to help sway U.S.
-
-E27 [survivor_036.txt]:
-    The situation then worsened when Germany began following a policy of
-    ‘unrestricted submarine warfare’ which reduced the volume of supplies
-    reaching Britain.
-
-E28 [survivor_044.txt]:
-    The US wanted to stay completely out of the conflict but found this
-    increasingly difficult due to Germany’s policy of unrestricted submarine
-    warfare.
-
-E29 [survivor_044.txt]:
-    In response to American outrage, Germany abandoned unrestricted U-boat
-    attacks – but resumed them again early in 1917.
-
-E30 [diary_rich_j_117.txt]:
-    Our troops and a Comfort Fund people went into it and five days after the
-    Germans left it they blew it up with a contact mine.
-
-E31 [history_015.txt]:
-    I think at the heart of Britain's anxieties it came down really to Britain
-    fearing German domination of Europe because if a victorious but hostile
-    Germany dominated the continent and threatened Britain's position in the
-    world that was just intolerable for Britain.
-
-E32 [survivor_049.txt]:
-    Following the end of the war, British troops served in the Army of
-    Occupation in Germany.
-
-E33 [norm_052.txt]:
-    No more Australians are coming to England till after the winter.
-
-E34 [survivor_047.txt]:
-    So we set off, following the Germans up, you know.
-
-E35 [survivor_024.txt]:
-    I have personally been in one and they were so constructed that any bomb
-    thrown down if there was Germans in there, it would only go down so far,
-    because it would then go off at a traverse down to the 30 feet.
-
-E36 [jim_006.txt]:
-    They used to tell me of the days when the Germans first overran that
-    district, until they were driven back a few miles into positions they then
-    occupied.
-
-E37 [battle_008.txt]:
-    Germany had concentrated all of its resources on the Western Front after the
-    defeat of Russia.
-
-E38 [survivor_032.txt]:
-    The Germans staged a number of counter attacks but key objectives were
-    secured in the following few days.
-
-E39 [survivor_008.txt]:
-    We had a very good gun, the 75 gun, but not being sufficient in quantity to
-    do any harm to the Germans because they were covered in trenches you know.
-
-E40 [survivor_050.txt]:
-    I think their father was interned and they had to board up the shop because
-    people were attacking any of the shops, you know, that were known to be run
-    by Germans.
-
-E41 [survivor_048.txt]:
-    And of course, when we found out that they were the closest to the Germans,
-    we stopped and we stood in that place until… must have been oh, half past
-    12, one o'clock before the order was given to retire.
-
-E42 [survivor_046.txt]:
-    The tanks were going forward and taking position after position, the
-    infantry following up behind and even though the Germans brought their
-    artillery up out of their pits, it was of no avail that the Australians got
-    all round them.
-
-E43 [survivor_046.txt]:
-    After the breach of their fixed positions on the Hindenburg Line, the
-    Germans were forced into open retreat.
-
-E44 [battle_005.txt]:
-    Named after the Russian commander Aleksei
-    Brusilov("https://en.wikipedia.org/wiki/Aleksei_Brusilov") who led it, the
-    offensive used tactics that were to also prove successful on the Western
-    Front.
-
-E45 [battle_010.txt]:
-    Named after the Russian commander who led it, the attack used short, sharp
-    artillery bombardments and shock troops to exploit weak points, which helped
-    return an element of surprise to the attack.
-
-E46 [history_015.txt]:
-    So after Serbia failed to meet the terms of a very draconian ultimatum
-    Austria-Hungary declares war on Serbia and this act of war this stirs up
-    these old tensions and anxieties right across the continent because it draws
-    in supporters and allies on both sides.
-
-E47 [survivor_002.txt]:
-    G Lagus, a schoolboy in Prague in the summer of 1914, sensed exactly what
-    was going to happen, particularly because of the uneasy atmosphere in
-    Austria-Hungary.
-
-E48 [bob_077.txt]:
-    My dear Mum Went up for my medical board yesterday morning I was thoroughly
-    disgusted and fed up of the whole show they kept me waiting from 9-30 in the
-    morning until 12 o'clock I said yes to all their questions being put through
-    the third degree and as I wanted was marked General Service fit they asked
-    ...
-
-E49 [survivor_016.txt]:
-    We’d five officers killed – five officers were killed – when the Germans
-    broke, got through into our … And they did a hell of a lot of damage.
-
-E50 [wilf_057.txt]:
-    I was with our artillery observer once & through the glasses could see the
-    Turks returning up a hill & our shrapnel bursting amongst them as they went
-    & following them up under the directions of this officer.
-
-E51 [survivor_024.txt]:
-    There was evidently some sort of truce in the dawn because the Germans were
-    carrying out their casualties.
-
-E52 [survivor_042.txt]:
-    I said, ‘What’s happened?’ ‘Tom,’ he said, ‘I just came out of this fog and
-    there was a big fat German in front of me!’ He said, ‘I didn’t know what to
-    do, so what I did was, I slipped my arms through my kit, he grabbed me, and
-    he grabbed the kit and I ran away as fast as I could!’ I didn’t tell anybody
-    ...
-
-E53 [jim_002.txt]:
-    The weather is finer and warmer, and consequently much more appreciated by
-    Australians than months of winter.
-
-E54 [history_003.txt]:
-    Similarly, when British Prime Minister Neville Chamberlain announced on 3
-    September 1939 that Britain was at war with Germany, Australia was again
-    automatically at war, with Australia’s Prime Minister Robert Menzies
-    announcing on the radio (one hour and fifteen minutes later): ‘it is my
-    ...
-
-E55 [jim_008.txt]:
-    Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road
-    London Date: 25 May 1918 Nationality: Australian Text: My dear Mother &
-    father, Since my letter of a week ago I have not received any further
-    letters from home, and consequently I have not got as much news to write
-    ...
-
-E56 [jim_015.txt]:
-    Author: James Joseph Makins Location: War Hospital Epsom Surrey England
-    Date: 7 August 1916 Nationality: Australian Text: I daresay by the time you
-    receive this note you will have heard that I am in England recovering from
-    the shock caused by one of Fritz's high explosive shells bursting alongside
-    ...
-
-E57 [norm_023.txt]:
-    Author: Norman Griffiths Ellsworth Location: Mena Camp Cairo Egypt Date: 24
-    March 1915 Nationality: Australian Text: Dearest Mother & all at Home Just a
-    line to let you know that I received another of your & Mabs welcome letters
-    yesterday & am very pleased to know that you are all well & I can assure you
-    ...
-
-E58 [wilf_085.txt]:
-    Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse
-    Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My
-    dear mother, Events have for some time past been so mixed up that I hardly
-    know when I last wrote to you but fancy it is only about a week ago, though
-    ...
-
-E59 [history_003.txt]:
-    Following the September 1914 election, Fisher took office (for the third
-    time) and his government pursued a policy of fully supporting Britain’s war
-    effort.
-
-E60 [survivor_001.txt]:
-    In the 1920s and the 1930s you see definite examples of how the Christmas
-    truce changes in its depiction because there was a much greater emphasis
-    then on the German soldier as a hero fighting a noble war, whereas the
-    Christmas truce conflicts with that to a degree, so in Germany in particular
-    ...
-
-E61 [survivor_044.txt]:
-    Walter Greenwood, a schoolboy in Britain at the time, remembered the anger
-    felt towards Germany after the attack.
-
-E62 [battle_010.txt]:
-    After the defeat of Russia, Germany had concentrated all of its resources on
-    the Western Front, while facing them were weary Allied forces that had been
-    on the offensive for 3 years.
-
-E63 [elmer_014.txt]:
-    From The Story of the First Gas Regiment: “The most striking celebration of
-    our new unity as a regiment was given in a review of The 30th held by
-    Colonel Fries on May 3 at the Gas Experimental Field – a day when hardly a
-    man could help feeling, with something of a thrill, what the past seven
-    ...
-
-E64 [elmer_017.txt]:
-    From The First Gas Regiment: “By May 21st, preparations, both at the post
-    and at the front, were so far completed that the First Battalion received
-    orders to move, and the following day the battalion set out in trucks for
-    the Toul sector of the American front.
-
-E65 [will_067.txt]:
-    Author: J W Legge Date: 16 February 1917 Location: London Nationality:
-    British Text: London 16 February 1917 Dear Sir With reference to my telegram
-    concerning an appeal to G.H.Q., the copy of the cable you sent to Australia
-    is certainly not quite what I had been led to believe.
-
-E66 [norm_048.txt]:
-    He wants to try & get me to England, but I believe Australians & New
-    Zealanders have some difficulty in getting past Alexandria owing to some
-    rivalry between the Australian Authorities & the Imperial Authorities, &
-    this may possibly block me from a nice little trip to the old Country,
-    ...
-
-E67 [will_020.txt]:
-    From letters we have found on dead Turks we find that time after time there
-    are entries of their losses, and on one occasion when I attacked some of
-    their trenches & had a good fight but of which I didn't think very much,
-    they acknowledged to have had 600 killed & 2000 wounded.
-
-E68 [survivor_024.txt]:
-    Stanley Parker Bird helped the wounded that night as a member of the Royal
-    Army Medical Corps.
-
-E69 [survivor_042.txt]:
-    Maberly Esler of the Royal Army Medical Corps described the difficulty of
-    trying to help wounded men amidst the confusion and danger of the fighting.
-
-E70 [battle_003.txt]:
-    Text: BATTLE OF THE SOMME The Battle of the Somme (1 July - 18 November
-    1916) was a joint operation between British and French forces intended to
-    achieve a decisive victory over the Germans on the Western Front.
-
-E71 [jim_019.txt]:
-    Author: James Joseph Makin Location: No 1 Command Depot Sutton Veny Date: 6
-    September 1918 Nationality: Australian Text: My dearest Mother, The day
-    after I last wrote to you I heard that Les had been wounded, but I have
-    delayed writing on the offchance of finding out the nature of his wounds.
-
-================================================================================
-RELATIONSHIPS (Cause -> Effect)
---------------------------------------------------------------------------------
-  1. C1 -> E1  (confidence: 1.00)
-  2. C2 -> E2  (confidence: 1.00)
-  3. C2 -> E3  (confidence: 1.00)
-  4. C3 -> E4  (confidence: 1.00)
-  5. C4 -> E5  (confidence: 1.00)
-  6. C4 -> E6  (confidence: 1.00)
-  7. C5 -> E7  (confidence: 1.00)
-  8. C6 -> E8  (confidence: 1.00)
-  9. C7 -> E9  (confidence: 1.00)
- 10. C8 -> E10  (confidence: 1.00)
- 11. C9 -> E11  (confidence: 1.00)
- 12. C9 -> E2  (confidence: 1.00)
- 13. C10 -> E12  (confidence: 0.99)
- 14. C11 -> E13  (confidence: 0.99)
- 15. C12 -> E9  (confidence: 0.99)
- 16. C13 -> E6  (confidence: 0.99)
- 17. C14 -> E14  (confidence: 0.99)
- 18. C15 -> E14  (confidence: 0.99)
- 19. C16 -> E15  (confidence: 0.99)
- 20. C17 -> E16  (confidence: 0.99)
- 21. C18 -> E17  (confidence: 0.99)
- 22. C18 -> E18  (confidence: 0.99)
- 23. C18 -> E19  (confidence: 0.99)
- 24. C7 -> E20  (confidence: 0.99)
- 25. C19 -> E21  (confidence: 0.99)
- 26. C20 -> E17  (confidence: 0.99)
- 27. C20 -> E19  (confidence: 0.99)
- 28. C21 -> E9  (confidence: 0.99)
- 29. C22 -> E22  (confidence: 0.99)
- 30. C20 -> E23  (confidence: 0.94)
- 31. C23 -> E24  (confidence: 0.91)
- 32. C23 -> E8  (confidence: 0.91)
- 33. C24 -> E9  (confidence: 0.91)
- 34. C11 -> E25  (confidence: 0.91)
- 35. C11 -> E26  (confidence: 0.91)
- 36. C11 -> E27  (confidence: 0.91)
- 37. C11 -> E28  (confidence: 0.91)
- 38. C11 -> E29  (confidence: 0.91)
- 39. C1 -> E30  (confidence: 0.91)
- 40. C25 -> E12  (confidence: 0.91)
- 41. C25 -> E27  (confidence: 0.91)
- 42. C25 -> E28  (confidence: 0.91)
- 43. C26 -> E12  (confidence: 0.91)
- 44. C26 -> E27  (confidence: 0.91)
- 45. C26 -> E28  (confidence: 0.91)
- 46. C27 -> E24  (confidence: 0.91)
- 47. C28 -> E12  (confidence: 0.91)
- 48. C28 -> E25  (confidence: 0.91)
- 49. C28 -> E26  (confidence: 0.91)
- 50. C28 -> E28  (confidence: 0.91)
- 51. C29 -> E31  (confidence: 0.91)
- 52. C30 -> E24  (confidence: 0.91)
- 53. C31 -> E21  (confidence: 0.91)
- 54. C5 -> E32  (confidence: 0.91)
- 55. C32 -> E15  (confidence: 0.91)
- 56. C33 -> E33  (confidence: 0.91)
- 57. C17 -> E34  (confidence: 0.91)
- 58. C17 -> E4  (confidence: 0.91)
- 59. C34 -> E35  (confidence: 0.91)
- 60. C35 -> E12  (confidence: 0.91)
- 61. C36 -> E24  (confidence: 0.91)
- 62. C37 -> E8  (confidence: 0.91)
- 63. C6 -> E36  (confidence: 0.91)
- 64. C18 -> E37  (confidence: 0.91)
- 65. C38 -> E38  (confidence: 0.91)
- 66. C38 -> E39  (confidence: 0.91)
- 67. C38 -> E40  (confidence: 0.91)
- 68. C38 -> E36  (confidence: 0.91)
- 69. C38 -> E41  (confidence: 0.91)
- 70. C39 -> E42  (confidence: 0.91)
- 71. C39 -> E43  (confidence: 0.91)
- 72. C40 -> E44  (confidence: 0.91)
- 73. C20 -> E14  (confidence: 0.91)
- 74. C41 -> E45  (confidence: 0.91)
- 75. C42 -> E46  (confidence: 0.91)
- 76. C42 -> E47  (confidence: 0.91)
- 77. C21 -> E48  (confidence: 0.91)
- 78. C43 -> E14  (confidence: 0.91)
- 79. C44 -> E49  (confidence: 0.91)
- 80. C45 -> E24  (confidence: 0.91)
- 81. C46 -> E5  (confidence: 0.91)
- 82. C47 -> E50  (confidence: 0.91)
- 83. C48 -> E51  (confidence: 0.91)
- 84. C49 -> E52  (confidence: 0.91)
- 85. C50 -> E53  (confidence: 0.91)
- 86. C51 -> E51  (confidence: 0.91)
- 87. C52 -> E51  (confidence: 0.91)
- 88. C53 -> E51  (confidence: 0.91)
- 89. C54 -> E34  (confidence: 0.91)
- 90. C54 -> E36  (confidence: 0.91)
- 91. C2 -> E11  (confidence: 0.90)
- 92. C4 -> E54  (confidence: 0.90)
- 93. C16 -> E7  (confidence: 0.90)
- 94. C32 -> E7  (confidence: 0.90)
- 95. C55 -> E55  (confidence: 0.90)
- 96. C56 -> E9  (confidence: 0.90)
- 97. C57 -> E11  (confidence: 0.90)
- 98. C57 -> E2  (confidence: 0.90)
- 99. C57 -> E56  (confidence: 0.90)
-100. C57 -> E20  (confidence: 0.90)
-101. C57 -> E3  (confidence: 0.90)
-102. C57 -> E57  (confidence: 0.90)
-103. C9 -> E20  (confidence: 0.90)
-104. C9 -> E3  (confidence: 0.90)
-105. C9 -> E57  (confidence: 0.90)
-106. C26 -> E32  (confidence: 0.89)
-107. C28 -> E5  (confidence: 0.89)
-108. C28 -> E31  (confidence: 0.89)
-109. C58 -> E58  (confidence: 0.89)
-110. C4 -> E59  (confidence: 0.89)
-111. C4 -> E31  (confidence: 0.89)
-112. C4 -> E60  (confidence: 0.89)
-113. C59 -> E7  (confidence: 0.89)
-114. C14 -> E37  (confidence: 0.89)
-115. C5 -> E27  (confidence: 0.89)
-116. C5 -> E61  (confidence: 0.89)
-117. C5 -> E31  (confidence: 0.89)
-118. C15 -> E62  (confidence: 0.89)
-119. C15 -> E37  (confidence: 0.89)
-120. C60 -> E5  (confidence: 0.89)
-121. C60 -> E31  (confidence: 0.89)
-122. C43 -> E17  (confidence: 0.89)
-123. C43 -> E18  (confidence: 0.89)
-124. C43 -> E19  (confidence: 0.89)
-125. C57 -> E58  (confidence: 0.89)
-126. C61 -> E63  (confidence: 0.89)
-127. C46 -> E26  (confidence: 0.89)
-128. C62 -> E64  (confidence: 0.89)
-129. C9 -> E65  (confidence: 0.89)
-130. C9 -> E55  (confidence: 0.89)
-131. C50 -> E66  (confidence: 0.89)
-132. C63 -> E67  (confidence: 0.86)
-133. C64 -> E68  (confidence: 0.85)
-134. C64 -> E69  (confidence: 0.85)
-135. C65 -> E70  (confidence: 0.85)
-136. C57 -> E71  (confidence: 0.85)
+EVENT MAPPING
+============================================================
+
+C1 [wall_023.txt]: according to reports our areoplanes dropped bombs on an ammunition store in Lille which is just about 6 miles the other side of our trenches opposite ...
+
+C100 [survivor_032.txt]: Walter Cook of the Royal Army Medical Corps described the misery this caused....
+
+C103 [survivor_026.txt]: After the close of the Battle of the Somme in November 1916, the men on the Western Front dug in for the coming winter....
+
+C11 [history_002.txt]: He told Parliament at the end of August 1916: In view of certain urgent and grave communications from the War Council of Great Britain, and of the pre...
+
+C12 [history_003.txt]: When it mobilised against Russia, Germany therefore also demanded that France remain neutral....
+
+C14 [history_003.txt]: Russia and Germany … have declared war upon each other … [France is] involved in it because of their obligation of honour under a definite alliance wi...
+
+C15 [survivor_044.txt]: They caused the most frightful commotion and the Germans kept on thinking they were being attacked....
+
+C18 [history_001.txt]: Medical advances made the First World War the first major conflict in which British deaths in battle outnumbered deaths caused by disease....
+
+C20 [bob_016.txt]: Henley in Alexandria & Leslie has seen him we should get all our parcels etc now Leslie in the best of health he has nothing to do with me now however...
+
+C22 [bob_023.txt]: All the heads in creation here so this chicken had to swank also consequently when after arriving here and getting fixed up went straight into Cairo a...
+
+C24 [wilf_085.txt]: Author: Wilfred Evans Date: 31 March 1917 Regiment: 9th Light Horse Location: Racecourse Cairo Egypt Nationality: Australian Text: 31.3.1917 My dear m...
+
+C26 [america_003.txt]: Public opinion began to shift away from neutrality following Germany’s sinking of the Lusitania in May 1915, which resulted in the deaths of nearly 1,...
+
+C28 [bob_072.txt]: My dear Mum, Have just seen the procession in connection with the opening of parliament it was all very interesting and of course the most interesting...
+
+C3 [rollo_015.txt]: Author: Harold Edwin Salisbury Location: Serapeum Date: 6 May 1916 Nationality: Australian Text: We are anxious to take the initiative - & hence our d...
+
+C30 [norm_049.txt]: I missed the Mauretania after all, through them changing the Drs just when Scott had sorted out his patients who were to go away & the new chap said t...
+
+C31 [history_003.txt]: Similarly, when British Prime Minister Neville Chamberlain announced on 3 September 1939 that Britain was at war with Germany, Australia was again aut...
+
+C32 [survivor_046.txt]: Intense fighting continued over the following days as Allied forces sought to push the Germans back....
+
+C36 [battle_010.txt]: After the defeat of Russia, Germany had concentrated all of its resources on the Western Front, while facing them were weary Allied forces that had be...
+
+C38 [survivor_024.txt]: There was evidently some sort of truce in the dawn because the Germans were carrying out their casualties....
+
+C40 [bob_106.txt]: What do you think of this for stiffness am just due for leave either to England or Paris and expected to get away any day now when news has just come ...
+
+C47 [survivor_032.txt]: The Germans staged a number of counter attacks but key objectives were secured in the following few days....
+
+C48 [survivor_022.txt]: Here, Marmaduke Walkinton – known as Leslie – reads from his letter home following the 1914 Christmas Truce....
+
+C50 [survivor_036.txt]: Allied aircraft also bombed German cities, which caused much the same panic amongst the population as in Britain....
+
+C52 [survivor_034.txt]: And it came about, I think, to a large degree because the Germans had a weapon they called a minenwerfer....
+
+C53 [survivor_047.txt]: So we set off, following the Germans up, you know....
+
+C55 [jim_002.txt]: The weather is finer and warmer, and consequently much more appreciated by Australians than months of winter....
+
+C57 [survivor_046.txt]: Owing to the British attacks in the north of us and in the south and even right down to the Americans were making advances in the south – well that me...
+
+C59 [survivor_044.txt]: I think, myself, it’s only an opinion, that if the Americans hadn’t come in, it would either have been stalemate – because the Germans had had enough ...
+
+C6 [survivor_008.txt]: When German infantry advanced in large numbers during the battle, rapid British rifle fire resulted in heavy losses....
+
+C60 [survivor_044.txt]: And the sergeant there, the first words he said when he was in our trenches were, ‘Where are the goddam Germans?’ Someone told him, ‘Just over there.’...
+
+C63 [will_075.txt]: They will not understand that the Germans had to retire because they could not stay where they were, & fears of traps, counter-attacks &c are freely d...
+
+C67 [battle_004.txt]: In the summer, the Germans were forced to reduce their strength at Verdun after the British and Russians launched their own offensives elsewhere....
+
+C70 [battle_010.txt]: Named after the Russian commander who led it, the attack used short, sharp artillery bombardments and shock troops to exploit weak points, which helpe...
+
+C72 [battle_005.txt]: It was their last major offensive of the war and led to an overall weakening – both militarily and politically – of both Russia and Austria-Hungary....
+
+C75 [norm_031.txt]: All the Drivers & horses are still in Alexandria & of course Braithwaite & Jack Hall are there too, so it looks as if they will keep us in Gaba Tepe a...
+
+C8 [history_002.txt]: There were large public meetings supporting Home Rule in May and June 1914, which Fisher and other Labor leaders had attended, countered by anti-Home ...
+
+C80 [norm_037.txt]: I forgot to tell you, I went thro all the underground tunnels which the Engineers have dug under the Turks trenches, & they reach & wind in all direct...
+
+C82 [survivor_010.txt]: When we were on the line at Sailly, Christmas 1914, there was a bit of a truce there you know and the Germans stopped firing, we stopped firing....
+
+C83 [survivor_010.txt]: This runner came along when I was on this fatigue job and said, ‘You’re wanted again to interpret.’ I said, ‘What is it this time?’ He said, ‘There’s ...
+
+C85 [survivor_028.txt]: But afterwards there was such a congestion on that gap and there was such a slaughter went on, because the Germans they sprung up all over the place w...
+
+C86 [norm_054.txt]: but of course I did not know anything of it until Aug 2nd when B/ called & only two miles away, but we were all sent further back for the Germans were...
+
+C87 [will_067.txt]: Author: J W Legge Date: 16 February 1917 Location: London Nationality: British Text: London 16 February 1917 Dear Sir With reference to my telegram co...
+
+C89 [jim_015.txt]: Author: James Joseph Makins Location: War Hospital Epsom Surrey England Date: 7 August 1916 Nationality: Australian Text: I daresay by the time you re...
+
+C90 [simpson_013.txt]: I got a letter from you the other day and some papers I am sorry to hear that the Germans got so near to Shields but I dont think that you have much t...
+
+C92 [bob_065.txt]: My dear Mum, Just fancy being in this place over 4 months now who would have thought it at first it is indeed a long time to be in hospital of course ...
+
+C98 [will_027.txt]: I had one more biggish fight since our big advance, in taking a hill on my left, during which we had nearly 2000 casualties, but I am glad to say caus...
+
+E10 [history_003.txt]: In this context, on 3 August the federal Cabinet made two offers to the British Government: to place the Australian fleet under Admiralty control and ...
+
+E101 [survivor_024.txt]: Stanley Parker Bird helped the wounded that night as a member of the Royal Army Medical Corps....
+
+E102 [survivor_042.txt]: Maberly Esler of the Royal Army Medical Corps described the difficulty of trying to help wounded men amidst the confusion and danger of the fighting....
+
+E104 [battle_003.txt]: Text: BATTLE OF THE SOMME The Battle of the Somme (1 July - 18 November 1916) was a joint operation between British and French forces intended to achi...
+
+E105 [jim_019.txt]: Author: James Joseph Makin Location: No 1 Command Depot Sutton Veny Date: 6 September 1918 Nationality: Australian Text: My dearest Mother, The day af...
+
+E13 [history_015.txt]: When Germany, in support of its ally, then declared war on Russia that brought France into the war on Russia's side....
+
+E16 [survivor_028.txt]: The Germans held on to some trenches at the bottom of the ridge and they caused quite a few casualties from rifle fire, from snipers....
+
+E17 [history_003.txt]: Germany’s war plan was based on the threat of a two-front war against both France and Russia (due to their mutual alliance commitments), and relied on...
+
+E19 [history_003.txt]: By then, another 60,000 had died from wounds or illnesses caused by the war.[9]("https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Par...
+
+E2 [will_085.txt]: However like you in France we are killing off Bulgars & Bosches - at the Dardanelles they have mounted some by guns & are trying to bombard me out of ...
+
+E21 [simpson_010.txt]: Dear Mother Just a line to let you know that I am still in Cairo It is X Mas Day today I was look forward to spending today in Shields but I was doome...
+
+E23 [wilf_070.txt]: Did I tell to you that when in Cairo I drew all the back pay I had due to me as I have not spent all the 10/- per day I draw over here, because when w...
+
+E25 [Harold13.txt]: Author: Harold Edwin Salisbury Location: Egypt to France Date: 5 June 1916 Nationality: Australian Text: TRIP From Egypt to France 1 Dear Father & Mot...
+
+E27 [survivor_027.txt]: The outrage following the sinking – in which over 1,000 lives were lost – resulted in Germany abandoning unrestricted submarine warfare in September 1...
+
+E29 [bob_077.txt]: My dear Mum Went up for my medical board yesterday morning I was thoroughly disgusted and fed up of the whole show they kept me waiting from 9-30 in t...
+
+E33 [battle_006.txt]: Following their retreat, the Germans re-engaged Allied forces on the Aisne, where fighting began to stagnate into trench warfare....
+
+E34 [battle_008.txt]: Germany had concentrated all of its resources on the Western Front after the defeat of Russia....
+
+E35 [simpson_012.txt]: Author: John Simpson Kickpatrick Date: 24 January 1915 Rank: Private Location: Mena Camp Cairo Nationality: Australian Text: 24 January 1915 Dear Moth...
+
+E37 [history_002.txt]: There had been heavy losses on the Western Front as Germany had been able to focus its forces there....
+
+E39 [survivor_028.txt]: Of course the Germans they hadn’t a chance there because the operation had been well planned and well carried out and the objectives were achieved....
+
+E4 [rollo_065.txt]: Author: Harold Edwin Salisbury Date: 5 June 1916 Location: Egypt to France Nationality: Australian Text: Dear Father & Mother - It is nearly a fortnig...
+
+E41 [america_001.txt]: Secretary of State Robert Lansing a note declaring Germany’s intention to restart unrestricted submarine warfare the following day....
+
+E42 [america_001.txt]: However, following Germany’s resumption of unrestricted submarine warfare in February, the British decided to use the note to help sway U.S....
+
+E43 [survivor_036.txt]: The situation then worsened when Germany began following a policy of ‘unrestricted submarine warfare’ which reduced the volume of supplies reaching Br...
+
+E44 [survivor_044.txt]: The US wanted to stay completely out of the conflict but found this increasingly difficult due to Germany’s policy of unrestricted submarine warfare....
+
+E45 [survivor_044.txt]: In response to American outrage, Germany abandoned unrestricted U-boat attacks – but resumed them again early in 1917....
+
+E46 [diary_rich_j_117.txt]: Our troops and a Comfort Fund people went into it and five days after the Germans left it they blew it up with a contact mine....
+
+E49 [survivor_010.txt]: So I think it’s alright.’ British private Marmaduke Walkinton explained how the close proximity of the enemy led to increased communication between th...
+
+E5 [rollo_108.txt]: Author: Harold Edwin Salisbury Location: France Date: 2 March 1917 Nationality: Australian Text: Dear Father & Mother,- I recd your cable yesterday te...
+
+E51 [history_015.txt]: I think at the heart of Britain's anxieties it came down really to Britain fearing German domination of Europe because if a victorious but hostile Ger...
+
+E54 [survivor_049.txt]: Following the end of the war, British troops served in the Army of Occupation in Germany....
+
+E56 [norm_052.txt]: No more Australians are coming to England till after the winter....
+
+E58 [survivor_024.txt]: I have personally been in one and they were so constructed that any bomb thrown down if there was Germans in there, it would only go down so far, beca...
+
+E61 [jim_006.txt]: They used to tell me of the days when the Germans first overran that district, until they were driven back a few miles into positions they then occupi...
+
+E62 [history_009.txt]: Following the outbreak of the First World War("https://www.iwm.org.uk/history/first-world-war") in August 1914, he displayed great competence as Chanc...
+
+E64 [survivor_008.txt]: We had a very good gun, the 75 gun, but not being sufficient in quantity to do any harm to the Germans because they were covered in trenches you know....
+
+E65 [survivor_050.txt]: I think their father was interned and they had to board up the shop because people were attacking any of the shops, you know, that were known to be ru...
+
+E66 [survivor_048.txt]: And of course, when we found out that they were the closest to the Germans, we stopped and we stood in that place until… must have been oh, half past ...
+
+E68 [survivor_046.txt]: The tanks were going forward and taking position after position, the infantry following up behind and even though the Germans brought their artillery ...
+
+E69 [survivor_046.txt]: After the breach of their fixed positions on the Hindenburg Line, the Germans were forced into open retreat....
+
+E7 [survivor_042.txt]: Intense fighting on that first day led to further German gains and heavy British losses....
+
+E71 [battle_005.txt]: Named after the Russian commander Aleksei Brusilov("https://en.wikipedia.org/wiki/Aleksei_Brusilov") who led it, the offensive used tactics that were ...
+
+E73 [history_015.txt]: So after Serbia failed to meet the terms of a very draconian ultimatum Austria-Hungary declares war on Serbia and this act of war this stirs up these ...
+
+E74 [survivor_002.txt]: G Lagus, a schoolboy in Prague in the summer of 1914, sensed exactly what was going to happen, particularly because of the uneasy atmosphere in Austri...
+
+E76 [diary_tubb_1915_06_13.txt]: The place where our men landed at Gaba Tepe is now known as Anzac Cove so named because of the Australian & New Zealand Army Corp....
+
+E77 [norm_007.txt]: Author: Norman Griffiths Ellsworth Nationality: Australian Text: Military song Tell Jack Tilton that Jack Heywood has grown a beard & looks like & Pre...
+
+E78 [diary_tubb_013.txt]: The place where our men landed at Gaba Tepe is now known as Anzac Cove so named because of the Australian & New Zealand Army Corp....
+
+E79 [survivor_016.txt]: We’d five officers killed – five officers were killed – when the Germans broke, got through into our … And they did a hell of a lot of damage....
+
+E81 [wilf_057.txt]: I was with our artillery observer once & through the glasses could see the Turks returning up a hill & our shrapnel bursting amongst them as they went...
+
+E84 [survivor_042.txt]: I said, ‘What’s happened?’ ‘Tom,’ he said, ‘I just came out of this fog and there was a big fat German in front of me!’ He said, ‘I didn’t know what t...
+
+E88 [jim_008.txt]: Author: James Joseph Makin Location: A I F Headquarters 130 Horseferry Road London Date: 25 May 1918 Nationality: Australian Text: My dear Mother & fa...
+
+E9 [history_003.txt]: Britain delivered an ultimatum to Germany that Belgium be kept neutral, and following an ‘unsatisfactory reply’ declared war on Germany on 4 August 19...
+
+E91 [norm_023.txt]: Author: Norman Griffiths Ellsworth Location: Mena Camp Cairo Egypt Date: 24 March 1915 Nationality: Australian Text: Dearest Mother & all at Home Just...
+
+E93 [history_003.txt]: Following the September 1914 election, Fisher took office (for the third time) and his government pursued a policy of fully supporting Britain’s war e...
+
+E94 [survivor_001.txt]: In the 1920s and the 1930s you see definite examples of how the Christmas truce changes in its depiction because there was a much greater emphasis the...
+
+E95 [survivor_044.txt]: Walter Greenwood, a schoolboy in Britain at the time, remembered the anger felt towards Germany after the attack....
+
+E96 [norm_048.txt]: He wants to try & get me to England, but I believe Australians & New Zealanders have some difficulty in getting past Alexandria owing to some rivalry ...
+
+E97 [history_003.txt]: As the Australian War Memorial states, for Australia, the First World War remains our most costly conflict in terms of deaths and casualties....
+
+E99 [will_020.txt]: From letters we have found on dead Turks we find that time after time there are entries of their losses, and on one occasion when I attacked some of t...
+
