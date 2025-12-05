@@ -1,4 +1,4 @@
-EVENT MAPPING
+RULE-BASED CAUSAL NETWORK - EVENT MAPPING
 ============================================================
 
 C1 [wall_023.txt]: according to reports our areoplanes dropped bombs on an ammunition store in Lille which is just about 6 miles the other side of our trenches opposite ...

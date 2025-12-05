@@ -293,4 +293,4 @@ if __name__ == "__main__":
     threshold = float(sys.argv[1]) if len(sys.argv) > 1 else 0.85
     
     detector = CauseEffectDetector(min_conf=threshold)
-    detector.run('../data/processed_data.json', '../output/cause_effect_results_final.json')
+    detector.run('../data/processed_data.json', '../output/cause_effect_rulebased.json')

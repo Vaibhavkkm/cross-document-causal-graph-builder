@@ -1,137 +1,123 @@
-# WWI Historical Documents - Cross-File Cause-Effect Extraction
+# Cross-Document Causal Graph Builder
 
-This project extracts causal relationships from World War I historical documents (letters, diaries, battle reports) using NLP techniques. The focus is on finding cause-effect pairs that span across different source files.
+Extracts causal relationships from WWI historical documents using both **rule-based NLP** and **ML-based (Hugging Face)** approaches.
 
 ## Project Structure
 
 ```
 ├── data/
-│   └── processed_data.json      # preprocessed text data from historical documents
+│   └── processed_data.json         # Preprocessed text from historical documents
 ├── src/
-│   ├── advanced_cause_effect_ml.py   # main extraction script
-│   └── generate_cause_effect_network.py  # visualization script
+│   ├── extract_rulebased.py        # Rule-based NLP extraction
+│   ├── extract_ml.py               # ML-based extraction (Hugging Face)
+│   └── generate_cause_effect_network.py  # Visualization generator
 ├── output/
-│   ├── cause_effect_results_final.json  # extracted relationships
-│   ├── cause_effect_mapping.txt         # human-readable event labels
-│   └── events.png                       # network visualization
+│   ├── cause_effect_rulebased.json # Rule-based results
+│   ├── cause_effect_ml.json        # ML-based results
+│   ├── network_rulebased.png       # Rule-based network visualization
+│   ├── network_ml.png              # ML-based network visualization
+│   ├── mapping_rulebased.txt       # Rule-based event labels
+│   └── mapping_ml.txt              # ML-based event labels
 ├── requirements.txt
 └── README.md
 ```
 
-## How It Works
+## Two Approaches
 
-The extraction process has several stages:
+### 1. Rule-Based NLP (`advanced_cause_effect_ml.py`)
+Uses pattern matching and TF-IDF similarity:
+- Explicit causal phrases ("led to", "resulted in", "because of")
+- Entity extraction (battles, locations, dates)
+- Semantic similarity scoring
+- Shared context validation
 
-### 1. Text Preprocessing
-The raw historical documents (soldier letters, war diaries, battle reports) are split into sentences and stored in `processed_data.json`. Each entry has:
-- `file_id`: source document name
-- `sentences`: list of sentences from that document
-- `date`: document date (if available)
+**Output:** `cause_effect_rulebased.json` (149 pairs)
 
-### 2. Cause-Effect Detection
+### 2. ML-Based Hybrid (`ml_cause_effect.py`)
+Uses Hugging Face transformer + rule-based filtering:
+- **Model:** `valhalla/distilbart-mnli-12-3` (Natural Language Inference)
+- Rule-based candidate filtering
+- ML entailment validation
+- Combined scoring (rule + ML)
 
-The main script (`advanced_cause_effect_ml.py`) looks for causal relationships between sentences from *different* files. It uses:
-
-**Causal Language Detection**
-- Looks for explicit phrases like "resulted in", "led to", "because of", "due to"
-- Both forward ("X caused Y") and reverse ("Y because of X") patterns
-
-**Entity Extraction**
-- Extracts meaningful entities: battle names (Somme, Gallipoli), locations (France, Egypt), dates, military units
-- Filters out generic words (battle, war, soldier) that would create false positives
-
-**Semantic Similarity (TF-IDF)**
-- Computes similarity between cause and effect text
-- Rejects pairs that are too similar (likely duplicates) or too different (unrelated)
-- Sweet spot is 0.15-0.65 similarity
-
-**Validation Criteria**
-For a pair to be accepted:
-- Must be from different source files
-- Must have explicit causal language in at least one text
-- Must share at least 2 meaningful entities
-- Semantic similarity in valid range
-- Minimum confidence score of 0.85
-
-### 3. Network Visualization
-
-The visualization script creates a network graph showing:
-- **Light blue nodes (C1, C2, ...)**: Cause events
-- **Light green nodes (E1, E2, ...)**: Effect events  
-- **Red dashed edges**: Causal relationships
+**Output:** `cause_effect_ml.json` (312 pairs)
 
 ## Usage
 
 ### Setup
 ```bash
 python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Run Extraction
+### Run Rule-Based Extraction
 ```bash
 cd src
-python advanced_cause_effect_ml.py
+python3 extract_rulebased.py
 ```
 
-You can adjust the confidence threshold:
-```bash
-python advanced_cause_effect_ml.py 0.90  # stricter
-python advanced_cause_effect_ml.py 0.75  # more permissive
-```
-
-### Generate Visualization
+### Run ML-Based Extraction
 ```bash
 cd src
-python generate_cause_effect_network.py
+python3 extract_ml.py
 ```
 
-Output goes to `output/events.png`
+### Generate Visualizations
+```bash
+cd src
+python3 generate_cause_effect_network.py both      # Both visualizations
+python3 generate_cause_effect_network.py rulebased # Rule-based only
+python3 generate_cause_effect_network.py ml        # ML-based only
+```
 
 ## Output Format
 
-### cause_effect_results_final.json
+### Rule-Based JSON
 ```json
-[
-  {
-    "type": "cross_file",
-    "cause_file": "survivor_008.txt",
-    "cause_text": "When German infantry advanced...",
-    "effect_file": "survivor_042.txt", 
-    "effect_text": "Intense fighting led to heavy British losses...",
-    "confidence": 1.0
-  }
-]
+{
+  "type": "cross_file",
+  "cause_file": "survivor_008.txt",
+  "cause_text": "When German infantry advanced...",
+  "effect_file": "survivor_042.txt",
+  "effect_text": "Intense fighting led to heavy British losses...",
+  "confidence": 1.0
+}
 ```
 
-### cause_effect_mapping.txt
-Human-readable list mapping event IDs to their source text:
-```
-C1 [survivor_008.txt]: When German infantry advanced...
-E1 [survivor_042.txt]: Intense fighting led to heavy...
+### ML-Based JSON
+```json
+{
+  "cause_file": "survivor_044.txt",
+  "cause_text": "Walter Greenwood remembered the anger...",
+  "effect_file": "history_015.txt",
+  "effect_text": "Britain fearing German domination...",
+  "rule_score": 0.95,
+  "ml_score": 0.98,
+  "combined_score": 0.97,
+  "shared_context": ["german", "britain", "germany"]
+}
 ```
 
 ## Example Results
 
-Some high-quality relationships found:
-
-| Cause | Effect | Shared Context |
-|-------|--------|----------------|
-| Germany's sinking of the Lusitania (1915) | Germany abandoning submarine warfare | Germany, 1915 |
-| Germany declared war on Russia | France entered the war | Germany, France, Russia |
-| British attacks in the north | Germans forced to withdraw | Germans, British, Allied |
+| Approach | Cause | Effect | Score |
+|----------|-------|--------|-------|
+| Rule-based | German infantry advanced → rifle fire | Intense fighting → heavy losses | 1.00 |
+| ML-based | Germany attack → anger in Britain | Britain fearing German domination | 0.97 |
+| ML-based | Germany mobilised against Russia | France entered war | 0.95 |
 
 ## Requirements
 
 - Python 3.7+
 - networkx
 - matplotlib
-
-See `requirements.txt` for full list.
+- transformers (for ML approach)
+- torch (for ML approach)
 
 ## Notes
 
-- The extraction prioritizes quality over quantity. Better to have 100 accurate pairs than 5000 questionable ones
-- Cross-file requirement ensures we find connections between different sources, not just within a single document
-- The confidence threshold of 0.85 is tuned for high precision
+- Rule-based approach is faster, ML approach has more pairs
+- ML approach includes explainable scores (rule + ML)
+- Both require cross-file pairs (different source documents)
+- Minimum confidence threshold: 0.85
