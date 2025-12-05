@@ -6,21 +6,19 @@ from transformers import pipeline
 
 class HybridCauseEffect:
     """
-    BEST APPROACH: Rule-based extraction + ML reranking
-    1. Use strict rule-based detection (proven quality)
-    2. Add ML confidence score on top
+    Hybrid approach combining rule-based filtering with ML-based validation.
     """
     
     def __init__(self, min_conf=0.85):
         self.min_conf = min_conf
         
-        print("Loading NLI model for ML scoring...")
+        print("Loading NLI model...")
         self.nli = pipeline("zero-shot-classification", 
                            model="valhalla/distilbart-mnli-12-3",
                            device=-1)
         print("Model loaded.\n")
         
-        # causal phrases (from proven rule-based approach)
+        # Causal phrases for pattern matching
         self.causal_phrases = {
             'forward': [
                 r'\b(caused|led to|resulted in|triggered|sparked|brought about)\b',
@@ -105,7 +103,7 @@ class HybridCauseEffect:
         return sum(1 for w in words if w in tl)
 
     def rule_score(self, cause_txt, effect_txt, cause_file, effect_file):
-        """Rule-based validation (proven approach)"""
+        """Calculate score based on linguistic patterns and shared entities"""
         if cause_file == effect_file: return 0, "same file"
         if len(cause_txt) < 50 or len(effect_txt) < 50: return 0, "too short"
 
@@ -133,7 +131,7 @@ class HybridCauseEffect:
         return score, list(shared)
 
     def ml_score(self, cause, effect):
-        """Add ML confidence"""
+        """Calculate NLI entailment score"""
         text = f"{cause[:150]}. As a result, {effect[:120]}"
         result = self.nli(text, candidate_labels=["causal relationship", "unrelated"])
         idx = result['labels'].index('causal relationship')
@@ -142,7 +140,6 @@ class HybridCauseEffect:
     def find_pairs(self, all_files):
         print("="*60)
         print("HYBRID CAUSE-EFFECT DETECTION")
-        print("Rule-based validation + ML scoring")
         print("="*60)
 
         # build IDF
@@ -243,10 +240,7 @@ if __name__ == "__main__":
     print("="*60)
     print("HYBRID CAUSAL EXTRACTION")
     print("="*60)
-    print("Best of both worlds:")
-    print("  - Rule-based: explicit causal language, shared entities")
-    print("  - ML: validates logical entailment")
-    print("  - Combined score for ranking")
+    print("Running extraction with combined Rule-based + ML approach...")
     print("="*60 + "\n")
 
     detector = HybridCauseEffect(min_conf=conf)
