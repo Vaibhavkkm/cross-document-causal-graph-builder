@@ -24,51 +24,51 @@ Extracts causal relationships from WWI historical documents using both **rule-ba
 
 ## Two Approaches
 
-### 1. Rule-Based NLP (`advanced_cause_effect_ml.py`)
+### 1. Rule-Based NLP (`extract_rulebased.py`)
 Uses pattern matching and TF-IDF similarity:
 - Explicit causal phrases ("led to", "resulted in", "because of")
 - Entity extraction (battles, locations, dates)
 - Semantic similarity scoring
 - Shared context validation
 
-**Output:** `cause_effect_rulebased.json` (149 pairs)
+**Output:** `cause_effect_rulebased.json` (149 pairs, 105 nodes)
 
-### 2. ML-Based Hybrid (`ml_cause_effect.py`)
+### 2. ML-Based Hybrid (`extract_ml.py`)
 Uses Hugging Face transformer + rule-based filtering:
 - **Model:** `valhalla/distilbart-mnli-12-3` (Natural Language Inference)
 - Rule-based candidate filtering
 - ML entailment validation
 - Combined scoring (rule + ML)
 
-**Output:** `cause_effect_ml.json` (312 pairs)
+**Output:** `cause_effect_ml.json` (312 pairs, 134 nodes)
 
 ## Usage
 
 ### Setup
 ```bash
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ### Run Rule-Based Extraction
 ```bash
 cd src
-python3 extract_rulebased.py
+python extract_rulebased.py
 ```
 
 ### Run ML-Based Extraction
 ```bash
 cd src
-python3 extract_ml.py
+python extract_ml.py
 ```
 
 ### Generate Visualizations
 ```bash
 cd src
-python3 generate_cause_effect_network.py both      # Both visualizations
-python3 generate_cause_effect_network.py rulebased # Rule-based only
-python3 generate_cause_effect_network.py ml        # ML-based only
+python generate_cause_effect_network.py both      # Both visualizations
+python generate_cause_effect_network.py rulebased # Rule-based only
+python generate_cause_effect_network.py ml        # ML-based only
 ```
 
 ## Output Format
@@ -99,13 +99,12 @@ python3 generate_cause_effect_network.py ml        # ML-based only
 }
 ```
 
-## Example Results
+## Results Summary
 
-| Approach | Cause | Effect | Score |
-|----------|-------|--------|-------|
-| Rule-based | German infantry advanced → rifle fire | Intense fighting → heavy losses | 1.00 |
-| ML-based | Germany attack → anger in Britain | Britain fearing German domination | 0.97 |
-| ML-based | Germany mobilised against Russia | France entered war | 0.95 |
+| Approach | Pairs Extracted | Nodes | Edges |
+|----------|-----------------|-------|-------|
+| Rule-based | 149 | 105 (48 causes, 57 effects) | 149 |
+| ML-based | 312 | 134 (57 causes, 77 effects) | 312 |
 
 ## Requirements
 
@@ -117,7 +116,12 @@ python3 generate_cause_effect_network.py ml        # ML-based only
 
 ## Notes
 
-- Rule-based approach is faster, ML approach has more pairs
-- ML approach includes explainable scores (rule + ML)
-- Both require cross-file pairs (different source documents)
+- Rule-based approach is faster, ML approach extracts more pairs
+- ML approach includes explainable scores (rule + ML combined)
+- Both approaches require cross-file pairs (different source documents)
 - Minimum confidence threshold: 0.85
+
+## Author
+
+**Vaibhav Kailash Mangroliya**  
+University of Luxembourg

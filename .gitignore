@@ -8,3 +8,15 @@ __pycache__/
 *.swp
 data/processed_data.json
 final_dataset/
+
+# Report files (LaTeX)
+report/
+*.aux
+*.log
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.out
+*.synctex.gz

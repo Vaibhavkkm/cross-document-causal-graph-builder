@@ -1,0 +1,157 @@
+\documentclass[12pt,a4paper]{report}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+% Code listing style
+\lstdefinestyle{pythonstyle}{
+    language=Python,
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{blue}\bfseries,
+    stringstyle=\color{red},
+    commentstyle=\color{gray}\itshape,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    breaklines=true,
+    captionpos=b,
+    showstringspaces=false,
+    showspaces=false,
+    showtabs=false
+}
+\lstset{style=pythonstyle}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\Huge\bfseries Cross-Document Causal Graph Builder}
+    
+    \vspace{0.8cm}
+    
+    {\Large\itshape Extracting Causal Relationships from World War I\\[0.2cm]
+    Historical Documents Using Natural Language Processing}
+    
+    \vspace{2cm}
+    
+    {\Large Student Project 3}
+    
+    \vspace{1.5cm}
+    
+    {\large Submitted by:}\\[0.3cm]
+    {\Large\bfseries Vaibhav Mangroliya}
+    
+    \vspace{1.5cm}
+    
+    {\large Supervisor:}\\[0.2cm]
+    {\Large Prince Yaw GHARBIN}
+    
+    \vspace{0.8cm}
+    
+    {\large Co-supervisor:}\\[0.2cm]
+    {\Large Senthil Murugan NAGARAJAN}
+    
+    \vspace{2cm}
+    
+    {\large Department of Mathematics}\\[0.3cm]
+    {\large University of Luxembourg}
+    
+    \vspace{1cm}
+    
+    {\large December 2024}
+    
+\end{titlepage}
+
+% Acknowledgments
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgments}
+
+I would like to express my sincere gratitude to my supervisor, \textbf{Prince Yaw GHARBIN}, for his guidance, support, and for providing the World War I historical documents dataset that made this project possible. I am also thankful to my co-supervisor, \textbf{Senthil Murugan NAGARAJAN}, for his valuable insights on the mathematical aspects of this project.
+
+I am also grateful to the University of Luxembourg for the resources and academic environment that enabled this research.
+
+% Abstract
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+This project presents a comprehensive system for extracting causal relationships from historical documents related to World War I. The system employs two distinct methodological approaches: a rule-based Natural Language Processing technique and a hybrid Machine Learning approach utilizing transformer-based models from the Hugging Face library.
+
+The primary objective of this research is to automatically identify cause-and-effect relationships across multiple historical documents, enabling historians and researchers to understand the interconnected nature of historical events. The dataset comprises 1,490 historical documents including personal letters, diary entries, battle accounts, and official historical records from the WWI period spanning 1914 to 1918.
+
+The rule-based approach utilizes pattern matching with causal linguistic markers, TF-IDF based semantic similarity analysis, and entity recognition to identify potential causal pairs. This method extracted 149 high-confidence causal relationships with a minimum confidence threshold of 0.85.
+
+The hybrid Machine Learning approach combines the rule-based filtering with a Natural Language Inference model (DistilBART-MNLI) to validate and score causal relationships. This approach identified 312 causal pairs, demonstrating improved coverage while maintaining high precision through the dual-scoring mechanism.
+
+The extracted relationships are visualized as directed graphs using the NetworkX library, providing an intuitive representation of the causal chains connecting events across different documents. The project demonstrates the feasibility and effectiveness of combining traditional NLP techniques with modern deep learning approaches for historical text analysis.
+
+\textbf{Keywords:} Natural Language Processing, Causal Relationship Extraction, Machine Learning, Historical Document Analysis, World War I, Transformer Models, Network Visualization
+
+% Table of Contents
+\tableofcontents
+
+% List of Figures
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+% List of Tables
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+% List of Algorithms
+\listofalgorithms
+\addcontentsline{toc}{chapter}{List of Algorithms}
+
+\input{chapters/chapter1_introduction.tex}
+\input{chapters/chapter2_literature.tex}
+\input{chapters/chapter3_methodology.tex}
+\input{chapters/chapter4_implementation.tex}
+\input{chapters/chapter5_results.tex}
+\input{chapters/chapter6_conclusion.tex}
+
+% Bibliography
+\bibliographystyle{plain}
+\bibliography{references}
+
+% Appendices
+\appendix
+\input{chapters/appendix.tex}
+
+\end{document}

@@ -1,0 +1,105 @@
+\chapter{Introduction}
+\label{ch:introduction}
+
+\section{Background and Motivation}
+
+The study of historical events and their interconnections has long been a fundamental pursuit in the field of historiography. Understanding the causal relationships between events allows historians, researchers, and students to comprehend the complex web of factors that shape human history. World War I, often referred to as the Great War, remains one of the most significant conflicts in human history, with far-reaching consequences that continue to influence the modern world.
+
+The First World War, which lasted from 1914 to 1918, involved over 70 million military personnel and resulted in approximately 20 million deaths. The war fundamentally altered the political, economic, and social landscape of Europe and the world. Understanding the intricate chain of events that led to the outbreak of the war, the progression of battles, and the eventual armistice requires careful analysis of countless historical documents, including personal letters, diary entries, official records, battle reports, and newspaper articles.
+
+Traditionally, the extraction of causal relationships from historical texts has been a manual process, requiring extensive human effort and expertise. Historians spend countless hours reading through primary sources, identifying patterns, and constructing narratives that explain how one event led to another. However, with the digitization of historical archives and the advancement of Natural Language Processing technologies, there now exists an opportunity to automate portions of this analytical process.
+
+This project addresses the challenge of automatically extracting causal relationships from a corpus of World War I historical documents. By leveraging both rule-based NLP techniques and modern machine learning approaches, the system identifies cause-and-effect pairs across multiple documents, creating a comprehensive causal graph that reveals the interconnected nature of historical events.
+
+\section{Problem Statement}
+
+The primary problem addressed by this project can be formulated as follows:
+
+\textbf{Given a collection of historical documents related to World War I, how can we automatically identify and extract causal relationships between events mentioned across different documents, and represent these relationships in a structured format suitable for analysis and visualization?}
+
+This problem presents several significant challenges:
+
+\begin{enumerate}
+    \item \textbf{Cross-Document Analysis:} Causal relationships often span multiple documents written by different authors at different times. Identifying connections between events described in separate texts requires sophisticated semantic understanding.
+    
+    \item \textbf{Language Variability:} Historical documents exhibit considerable variability in writing style, vocabulary, and structure. Personal letters differ significantly from official military reports, yet both may contain valuable causal information.
+    
+    \item \textbf{Implicit Causality:} Not all causal relationships are explicitly stated using causal connectors like ``because'' or ``led to.'' Many relationships are implied through temporal sequencing or contextual proximity.
+    
+    \item \textbf{Validation of Causal Claims:} Distinguishing genuine causal relationships from mere correlations or coincidental co-occurrences requires robust validation mechanisms.
+    
+    \item \textbf{Scalability:} With thousands of documents to process, the system must be efficient enough to handle large-scale text processing while maintaining accuracy.
+\end{enumerate}
+
+\section{Objectives}
+
+The primary objectives of this project are as follows:
+
+\begin{enumerate}
+    \item \textbf{Dataset Development:} Compile and preprocess a comprehensive dataset of World War I historical documents suitable for NLP analysis.
+    
+    \item \textbf{Rule-Based Extraction:} Develop a rule-based NLP system that uses linguistic patterns, entity recognition, and semantic similarity to identify causal relationships.
+    
+    \item \textbf{Machine Learning Enhancement:} Implement a hybrid approach that combines rule-based filtering with transformer-based Natural Language Inference to improve extraction accuracy.
+    
+    \item \textbf{Validation Framework:} Create a multi-criteria validation system that assesses the quality and confidence of extracted causal relationships.
+    
+    \item \textbf{Visualization:} Generate intuitive network visualizations that display the causal connections between events across documents.
+    
+    \item \textbf{Comparative Analysis:} Evaluate and compare the performance of the rule-based and hybrid ML approaches.
+\end{enumerate}
+
+\section{Scope and Limitations}
+
+\subsection{Scope}
+
+This project focuses on the following aspects:
+
+\begin{itemize}
+    \item Analysis of 1,490 historical documents related to World War I
+    \item Extraction of cross-document causal relationships (pairs from different source files)
+    \item Implementation of two extraction approaches: rule-based and hybrid ML
+    \item Visualization of causal networks using graph theory
+    \item Evaluation of extraction quality through confidence scoring
+\end{itemize}
+
+\subsection{Limitations}
+
+The following limitations apply to this project:
+
+\begin{itemize}
+    \item The system is designed specifically for English-language documents
+    \item Focus is on explicit and semi-explicit causal relationships; deeply implicit causal connections may not be detected
+    \item The historical accuracy of extracted relationships depends on the quality of source documents
+    \item The system does not perform temporal ordering beyond what is explicitly stated in texts
+    \item Manual validation of all extracted relationships is beyond the scope of this project
+    \item The historical documents dataset was provided by the project supervisor and is not publicly available in the repository due to privacy and copyright considerations
+\end{itemize}
+
+\section{Significance of the Study}
+
+This project contributes to the field of Digital Humanities by demonstrating the applicability of modern NLP and ML techniques to historical text analysis. The developed system can:
+
+\begin{enumerate}
+    \item Assist historians in identifying previously unnoticed connections between historical events
+    \item Provide a foundation for more sophisticated historical analysis tools
+    \item Demonstrate the viability of hybrid approaches combining rule-based and ML methods
+    \item Serve as an educational tool for understanding the complex chain of events in WWI
+    \item Contribute to the broader field of causal relationship extraction in unstructured text
+\end{enumerate}
+
+\section{Report Organization}
+
+This report is organized into the following chapters:
+
+\textbf{Chapter 2: Literature Review} presents a comprehensive review of related work in causal relationship extraction, NLP for historical texts, and relevant machine learning techniques.
+
+\textbf{Chapter 3: Methodology} describes the theoretical framework and approaches used in the project, including the rule-based extraction method and the hybrid ML approach.
+
+\textbf{Chapter 4: Implementation} provides detailed technical descriptions of the system architecture, data processing pipelines, and implementation details.
+
+\textbf{Chapter 5: Results and Analysis} presents the experimental results, including extracted causal relationships, network visualizations, and comparative analysis of the two approaches.
+
+\textbf{Chapter 6: Conclusion} summarizes the findings, discusses the implications, and suggests directions for future research.
+
+\textbf{Appendix} contains additional code listings, sample outputs, and supplementary materials.
